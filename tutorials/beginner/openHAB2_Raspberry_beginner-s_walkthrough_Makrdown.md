@@ -2,7 +2,7 @@
 
 <div style="border-style: none none solid; border-color: -moz-use-text-color -moz-use-text-color windowtext; border-width: medium medium 1pt; padding: 0cm 0cm 1pt;">
 
-<span style="position: relative; z-index: 251689984;"><span style="position: absolute; left: 445px; top: -141px; width: 324px; height: 300px;"></span></span><span lang="EN-GB">openHAB2 Raspberry beginner’s walkthrough – (Using Raspberry Pi 3 with openHAB2 and Z-Wave, WiFi LED, Samsung TV and YahooWeather bindings for a home automation project)</span>
+<span style="position: relative; z-index: 251689984;"><span style="position: absolute; left: 445px; top: -141px; width: 324px; height: 300px;"></span></span><span lang="EN-GB">openHAB2 Raspberry beginnerâ€™s walkthrough â€“ (Using Raspberry Pi 3 with openHAB2 and Z-Wave, WiFi LED, Samsung TV and YahooWeather bindings for a home automation project)</span>
 
 </div>
 
@@ -24,7 +24,7 @@
 
 [<span lang="EN-GB">Minimal setup of the controller:</span> <span style="color: windowtext; display: none; text-decoration: none;"></span> <span style="color: windowtext; display: none; text-decoration: none;">7</span>](#_Toc485150873)
 
-[<span lang="EN-GB">Additional hardware for optional setup of the controller with 7” Raspberry display:</span> <span style="color: windowtext; display: none; text-decoration: none;"></span> <span style="color: windowtext; display: none; text-decoration: none;">8</span>](#_Toc485150874)
+[<span lang="EN-GB">Additional hardware for optional setup of the controller with 7â€ Raspberry display:</span> <span style="color: windowtext; display: none; text-decoration: none;"></span> <span style="color: windowtext; display: none; text-decoration: none;">8</span>](#_Toc485150874)
 
 [<span lang="EN-GB">Z-Wave Controller</span><span style="color: windowtext; display: none; text-decoration: none;">.</span> <span style="color: windowtext; display: none; text-decoration: none;">9</span>](#_Toc485150875)
 
@@ -52,13 +52,13 @@
 
 [<span lang="EN-GB">Basic hardware setup:</span> <span style="color: windowtext; display: none; text-decoration: none;"></span> <span style="color: windowtext; display: none; text-decoration: none;">16</span>](#_Toc485150887)
 
-[<span lang="EN-GB">Optional: Installation of 7” Raspberry display and display case:</span> <span style="color: windowtext; display: none; text-decoration: none;"></span> <span style="color: windowtext; display: none; text-decoration: none;">17</span>](#_Toc485150888)
+[<span lang="EN-GB">Optional: Installation of 7â€ Raspberry display and display case:</span> <span style="color: windowtext; display: none; text-decoration: none;"></span> <span style="color: windowtext; display: none; text-decoration: none;">17</span>](#_Toc485150888)
 
 [<span lang="EN-GB">Display installation pictures:</span> <span style="color: windowtext; display: none; text-decoration: none;"></span> <span style="color: windowtext; display: none; text-decoration: none;">17</span>](#_Toc485150889)
 
 [<span lang="EN-GB">Chapter 4: Raspbian basic configuration</span><span style="color: windowtext; display: none; text-decoration: none;">.</span> <span style="color: windowtext; display: none; text-decoration: none;">21</span>](#_Toc485150890)
 
-[<span lang="EN-GB">Starting up Raspberry or the first time – Raspbian PIXEL desktop</span><span style="color: windowtext; display: none; text-decoration: none;">.</span> <span style="color: windowtext; display: none; text-decoration: none;">21</span>](#_Toc485150891)
+[<span lang="EN-GB">Starting up Raspberry or the first time â€“ Raspbian PIXEL desktop</span><span style="color: windowtext; display: none; text-decoration: none;">.</span> <span style="color: windowtext; display: none; text-decoration: none;">21</span>](#_Toc485150891)
 
 [<span lang="EN-GB">Working with the Terminal:</span> <span style="color: windowtext; display: none; text-decoration: none;"></span> <span style="color: windowtext; display: none; text-decoration: none;">22</span>](#_Toc485150892)
 
@@ -202,16 +202,16 @@
 
 [<span lang="EN-US">Switching ON/OFF switches based on luminance reading of the multisensory</span><span style="color: windowtext; display: none; text-decoration: none;">.</span> <span style="color: windowtext; display: none; text-decoration: none;">74</span>](#_Toc485150962)
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-**<span lang="EN-GB" style='font-size: 14pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'> </span>**
+**<span lang="EN-GB" style='font-size: 14pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'>Â </span>**
 
 # <a name="_Toc485150866"><span lang="EN-GB">Version index</span></a>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <table class="MsoTableGrid" style="border: medium none ; border-collapse: collapse;" border="1" cellspacing="0" cellpadding="0">
 
@@ -239,7 +239,7 @@
 
 <span lang="EN-GB">I am also using a parallel system (my current live home automation system) to check different hardware configuration, especially when it comes to the displays or to Z-Wave controllers.</span>
 
-_<span lang="EN-GB"> </span>_
+_<span lang="EN-GB">Â </span>_
 
 _<span lang="EN-GB">Testbed system:</span>_
 
@@ -253,13 +253,13 @@ _<span lang="EN-GB">Testbed system:</span>_
 
 <span lang="EN-GB">USB Keyboard basic Microsoft qwertz German layout</span>
 
-<span lang="EN-GB">Display HDMI connection to 24” computer display</span>
+<span lang="EN-GB">Display HDMI connection to 24â€ computer display</span>
 
 <span lang="EN-GB">Case no name incl. ventilation</span>
 
 <span lang="EN-GB">Z-Wave controller UZB Z-Wave PLUS USB stick by Z-Wave.Me</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 _<span lang="EN-GB">Live home automation system:</span>_
 
@@ -273,13 +273,13 @@ _<span lang="EN-GB">Testbed system:</span>_
 
 <span lang="EN-GB">Bluetooth Keyboard Rapoo Bluetooth Keyboard qwertz German layout</span>
 
-<span lang="EN-GB">Display 7” Raspberry display</span>
+<span lang="EN-GB">Display 7â€ Raspberry display</span>
 
 <span lang="EN-GB">Case premium case for Raspberry Pi 7" Touch-Display (the closed version)</span>
 
 <span lang="EN-GB">Z-Wave controller Aeotec by Aeon Labs Z-Stick Gen5</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 _<span lang="EN-GB">Live Z-Wave devices:</span>_
 
@@ -291,7 +291,7 @@ _<span lang="EN-GB">Live Z-Wave devices:</span>_
 
 <span lang="EN-GB">Z-Wave NodOn Smart Plug</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -319,9 +319,9 @@ _<span lang="EN-GB">Live Z-Wave devices:</span>_
 
 <span lang="EN-GB">Further input in</span>
 
-<span lang="EN-GB">-<span style='font-family: "Times New Roman"; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;'></span> </span><span lang="EN-GB">Section “Shopping list”</span>
+<span lang="EN-GB">-<span style='font-family: "Times New Roman"; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;'></span> </span><span lang="EN-GB">Section â€œShopping listâ€</span>
 
-<span lang="EN-GB">-<span style='font-family: "Times New Roman"; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;'></span> </span><span lang="EN-GB">Section “Adding local things connected via network (IP)”</span>
+<span lang="EN-GB">-<span style='font-family: "Times New Roman"; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;'></span> </span><span lang="EN-GB">Section â€œAdding local things connected via network (IP)â€</span>
 
 <span lang="EN-GB">-<span style='font-family: "Times New Roman"; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;'></span> </span><span lang="EN-GB">Chapter 12: Creating rules</span>
 
@@ -336,7 +336,7 @@ _<span lang="EN-GB">Live Z-Wave devices:</span>_
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-**<span lang="EN-GB" style='font-size: 14pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'> </span>**
+**<span lang="EN-GB" style='font-size: 14pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'>Â </span>**
 
 # <a name="_Toc485150867"><span lang="EN-GB">Chapter 1: Before you start</span></a>
 
@@ -348,9 +348,9 @@ _<span lang="EN-GB">Live Z-Wave devices:</span>_
 
 ## <a name="_Toc485150869"><span lang="EN-GB">Introduction:</span></a>
 
-<span lang="EN-GB">This tutorial is targeting beginners like me to get a step by step guideline to get all the things installed. Since I am no coding expert and have no experience in Raspberry and Raspbian I am trying to go through the things step by step, so you should be able to get everything done, even without exactly having to go into all the details. That is one of the reasons I am also using the graphical GUI PIXEL for Raspbian since I thing it makes it easier for the beginners to get started (and you might want to use PIXEL anyway when you are using the Raspberry 7” display as interface for your home automation controller)</span>
+<span lang="EN-GB">This tutorial is targeting beginners like me to get a step by step guideline to get all the things installed. Since I am no coding expert and have no experience in Raspberry and Raspbian I am trying to go through the things step by step, so you should be able to get everything done, even without exactly having to go into all the details. That is one of the reasons I am also using the graphical GUI PIXEL for Raspbian since I thing it makes it easier for the beginners to get started (and you might want to use PIXEL anyway when you are using the Raspberry 7â€ display as interface for your home automation controller)</span>
 
-<span lang="EN-GB">This tutorial is also based on **having a Windows PC** to support the setup process. You might be able to completely do it without the support of an extra PC, if you can get a MicroSD card with a pre-installed Raspbian OS and use the display options (the Raspberry 7” display or HDMI Display) for the Raspberry.</span>
+<span lang="EN-GB">This tutorial is also based on **having a Windows PC** to support the setup process. You might be able to completely do it without the support of an extra PC, if you can get a MicroSD card with a pre-installed Raspbian OS and use the display options (the Raspberry 7â€ display or HDMI Display) for the Raspberry.</span>
 
 **<span lang="EN-GB" style="color: red;">DISCLAIMER:</span>**
 
@@ -358,7 +358,7 @@ _<span lang="EN-GB">Live Z-Wave devices:</span>_
 
 <span lang="EN-GB">Anyway I hope this tutorial will help some beginners to enjoy home automation with openHAB2.</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ## <a name="_Toc485150870"><span lang="EN-GB">A few words about the 2 in openHAB2:</span></a>
 
@@ -366,7 +366,7 @@ _<span lang="EN-GB">Live Z-Wave devices:</span>_
 
 <span lang="EN-GB">You just have to be aware, that a lot of online documentation is still for the openHAB version and will **not** be applicable for openHAB2!</span>
 
-<span lang="EN-GB">So the best thing is always to go to the official webpage of openHAB2 and start from there, and only if you really can’t find the information or the link there, go to google and search for other solutions. I was always using the search setting (last year) so it was more likely to the results considering openHAB2 and not openHAB.  
+<span lang="EN-GB">So the best thing is always to go to the official webpage of openHAB2 and start from there, and only if you really canâ€™t find the information or the link there, go to google and search for other solutions. I was always using the search setting (last year) so it was more likely to the results considering openHAB2 and not openHAB.  
 </span>
 
 # <a name="_Toc485150871"><span lang="EN-GB">Chapter 2: Preparation</span></a>
@@ -387,7 +387,7 @@ _<span lang="EN-GB">Live Z-Wave devices:</span>_
 
 <span lang="EN-GB">Raspberry Pi 3</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -409,7 +409,7 @@ _<span lang="EN-GB">Live Z-Wave devices:</span>_
 
 <td width="326" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-GB"> </span>![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image003.jpg)
+<span lang="EN-GB">Â </span>![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image003.jpg)
 
 </td>
 
@@ -437,7 +437,7 @@ _<span lang="EN-GB">Live Z-Wave devices:</span>_
 
 <span lang="EN-GB">USB Mouse</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -455,7 +455,7 @@ _<span lang="EN-GB">Live Z-Wave devices:</span>_
 
 <span lang="EN-GB">USB Keyboard</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -473,7 +473,7 @@ _<span lang="EN-GB">Live Z-Wave devices:</span>_
 
 <span lang="EN-GB">HDMI cable (full size to whatever your display needs)</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -491,7 +491,7 @@ _<span lang="EN-GB">Live Z-Wave devices:</span>_
 
 <span lang="EN-GB">Ethernet cable (optional, if you not want to use WiFi to connect the Raspberry to your gateway)</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -507,9 +507,9 @@ _<span lang="EN-GB">Live Z-Wave devices:</span>_
 
 <td width="326" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-GB">Raspberry case (optional, will **not** be needed if you are going for the 7” Raspberry display setup)</span>
+<span lang="EN-GB">Raspberry case (optional, will **not** be needed if you are going for the 7â€ Raspberry display setup)</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -525,7 +525,7 @@ _<span lang="EN-GB">Live Z-Wave devices:</span>_
 
 <td width="326" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-GB">Display with HDMI input ( optional, will **not** be needed if you are going for the 7” Raspberry display setup)</span>
+<span lang="EN-GB">Display with HDMI input ( optional, will **not** be needed if you are going for the 7â€ Raspberry display setup)</span>
 
 </td>
 
@@ -541,9 +541,9 @@ _<span lang="EN-GB">Live Z-Wave devices:</span>_
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-### <a name="_Toc485150874"><span lang="EN-GB">Additional hardware for optional setup of the controller with 7” Raspberry display:</span></a>
+### <a name="_Toc485150874"><span lang="EN-GB">Additional hardware for optional setup of the controller with 7â€ Raspberry display:</span></a>
 
 <span lang="EN-GB">(I found it very useful to have one permanent GUI interface mounted on your controller, you can also use this touchscreen interface directly to interact with your home automation):</span>
 
@@ -579,7 +579,7 @@ _<span lang="EN-GB">Live Z-Wave devices:</span>_
 
 <td width="326" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-![](openHAB2_Raspberry_beginner-s_walkthrough_files/image012.jpg) ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image013.jpg)
+![](openHAB2_Raspberry_beginner-s_walkthrough_files/image012.jpg)Â ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image013.jpg)
 
 </td>
 
@@ -597,7 +597,7 @@ _<span lang="EN-GB">Alternative:</span>_ <span lang="EN-GB">Cases for Raspberry 
 
 <td width="326" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-GB"> </span>![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image014.jpg) ![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image015.jpg) ![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image016.jpg)
+<span lang="EN-GB">Â </span>![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image014.jpg)Â ![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image015.jpg)Â ![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image016.jpg)
 
 </td>
 
@@ -626,7 +626,7 @@ _<span lang="EN-GB">Alternative:</span>_ <span lang="EN-GB">Cases for Raspberry 
 **<span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>**
 
-**<span lang="EN-GB"> </span>**
+**<span lang="EN-GB">Â </span>**
 
 ### <a name="_Toc485150875"><span lang="EN-GB">Z-Wave Controller</span></a>
 
@@ -690,7 +690,7 @@ _<span lang="EN-GB">Alternative</span>_<span lang="EN-GB">: UZB Z-Wave PLUS USB 
 
 <td width="326" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 244.45pt;">
 
-_<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZberry2 Z-Wave Plus Daughter Card for Raspberry Pi Home Automation _(not plug and play compatible with optional setup of the controller with 7” Raspberry display!)_</span>
+_<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZberry2 Z-Wave Plus Daughter Card for Raspberry Pi Home Automation _(not plug and play compatible with optional setup of the controller with 7â€ Raspberry display!)_</span>
 
 <span lang="EN-GB">Pros:</span>
 
@@ -718,16 +718,16 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 **<span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>**
 
-**<span lang="EN-GB"> </span>**
+**<span lang="EN-GB">Â </span>**
 
 ### <a name="_Toc485150876"><span lang="EN-GB">Z-Wave sensors, switches and actuators</span></a>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 **<span lang="EN-GB">NOTE</span>**<span lang="EN-GB">: Be aware that the details serial numbers or item names may vary since you have to always make sure to use the hardware which is allowed in your country!</span>
 
@@ -797,7 +797,7 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 <td width="326" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-![Z-Wave NodOn Smart Plug, Schalt- und Messsteckdose, Schuko, 1 Stück, NODEMSP3101](openHAB2_Raspberry_beginner-s_walkthrough_files/image025.jpg)
+![Z-Wave NodOn Smart Plug, Schalt- und Messsteckdose, Schuko, 1 StÃ¼ck, NODEMSP3101](openHAB2_Raspberry_beginner-s_walkthrough_files/image025.jpg)
 
 </td>
 
@@ -807,7 +807,7 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 **<span lang="EN-GB">NOTE:</span>** <span lang="EN-GB">if you want to by other Z-Wave devices always make your they are listed in the Z-Wave device list of the openHAB2 Z-Wave binding to make sure they are supported correctly in the context of openHAB2:</span>
 
@@ -816,7 +816,7 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150877"><span lang="EN-GB">LAN devices (cable or WiFi)</span></a>
 
@@ -892,7 +892,7 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 <td width="326" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-![(3,98 €/m) 5m LED Stripe 12V dimmbar - 24W 1200lm - SMD 300 x 3528 60SMD/m - IP20 selbstklebend - 8mm - warmweiß (3000 K)](openHAB2_Raspberry_beginner-s_walkthrough_files/image029.jpg)
+![(3,98 â‚¬/m) 5m LED Stripe 12V dimmbar - 24W 1200lm - SMD 300 x 3528 60SMD/m - IP20 selbstklebend - 8mm - warmweiÃŸ (3000 K)](openHAB2_Raspberry_beginner-s_walkthrough_files/image029.jpg)
 
 </td>
 
@@ -943,11 +943,11 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-**<span lang="EN-GB" style='font-size: 14pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'> </span>**
+**<span lang="EN-GB" style='font-size: 14pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'>Â </span>**
 
 ## <a name="_Toc485150878"><span lang="EN-GB">Software list:</span></a>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB">My tutorial is using a MS-Windows windows machine for the PC part (You should be able to get it done with Mac or Linux PCs as well, but you have to go online to look up the differences and do some adaptions on the tutorial e.g. mounting the Raspberry file system to PC)</span>
 
@@ -963,7 +963,7 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 <span lang="EN-GB">The latest **Raspbian** (Raspberry OS) image</span>
 
-<span lang="EN-GB">You have to download the “Raspbian Jessie with PIXEL - Image with PIXEL desktop based on Debian Jessie” since this tutorial is using PIXEL</span>
+<span lang="EN-GB">You have to download the â€œRaspbian Jessie with PIXEL - Image with PIXEL desktop based on Debian Jessieâ€ since this tutorial is using PIXEL</span>
 
 </td>
 
@@ -971,7 +971,7 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 [<span class="Heading9Char"><span lang="EN-GB" style="font-size: 10pt; color: windowtext; text-decoration: none;">https://www.Raspberrypi.org/downloads/Raspbian/</span></span>](https://www.raspberrypi.org/downloads/raspbian/)
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -1007,7 +1007,7 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 [<span class="Heading9Char"><span lang="EN-GB" style="font-size: 10pt; color: windowtext; text-decoration: none;">https://www.openhab.org/downloads.html</span></span>](https://www.openhab.org/downloads.html)
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -1047,7 +1047,7 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 [<span class="Heading9Char"><span lang="EN-GB" style="font-size: 10pt; color: windowtext; text-decoration: none;">https://portableapps.com/apps/internet/kitty-portable</span></span>](https://portableapps.com/apps/internet/kitty-portable)
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -1059,7 +1059,7 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 **<span lang="EN-GB">WinSCP</span>** <span lang="EN-GB">portable to access Raspberry file System directly from your PC (might become obsolete if you use a SAMBA server on your Raspberry, see tutorial)</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -1075,7 +1075,7 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150880"><span lang="EN-GB">Raspberry downloads:</span></a>
 
@@ -1087,12 +1087,12 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 **<span lang="EN-GB">xscreensaver</span>** <span lang="EN-GB">(optional if you are using the display setup, to easy control screen blackening or screen savers)</span>
 
-<span lang="EN-GB" style='font-size: 10pt; line-height: 115%; font-family: "Lucida Bright","serif";'> </span>
+<span lang="EN-GB" style='font-size: 10pt; line-height: 115%; font-family: "Lucida Bright","serif";'>Â </span>
 
 <span lang="EN-GB" style='font-size: 10pt; line-height: 115%; font-family: "Lucida Bright","serif";'>  
 </span>
 
-<span lang="EN-GB" style='font-size: 10pt; line-height: 115%; font-family: "Lucida Bright","serif";'> </span>
+<span lang="EN-GB" style='font-size: 10pt; line-height: 115%; font-family: "Lucida Bright","serif";'>Â </span>
 
 # <a name="_Toc485150881"><span lang="EN-GB">Chapter 3: Raspberry hardware and Raspbian OS installation</span></a>
 
@@ -1100,20 +1100,20 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 ### <a name="_Toc485150883"><span lang="EN-GB">Raspberry input Overview:</span></a>
 
-![Bildergebnis für raspberry pi 3](openHAB2_Raspberry_beginner-s_walkthrough_files/image032.jpg)
+![Bildergebnis fÃ¼r raspberry pi 3](openHAB2_Raspberry_beginner-s_walkthrough_files/image032.jpg)
 
 ### <a name="_Toc485150884"><span lang="EN-GB">Raspberry GPIO pin Overview:</span></a>
 
-![Bildergebnis für raspberry pi 3 gpio](openHAB2_Raspberry_beginner-s_walkthrough_files/image033.png)
+![Bildergebnis fÃ¼r raspberry pi 3 gpio](openHAB2_Raspberry_beginner-s_walkthrough_files/image033.png)
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ## <a name="_Toc485150885"><span lang="EN-GB">Preparing MicroSD card - writing Raspbian image to MicroSD card (PC required):</span></a>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <table class="MsoTableGrid" style="border: medium none ; border-collapse: collapse;" border="1" cellspacing="0" cellpadding="0">
 
@@ -1175,12 +1175,12 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-**<span lang="EN-GB" style='font-size: 14pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'> </span>**
+**<span lang="EN-GB" style='font-size: 14pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'>Â </span>**
 
 ## <a name="_Toc485150886"><span lang="EN-GB">Connecting the hardware to the Raspberry</span></a>
 
@@ -1194,13 +1194,13 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 <td width="326" valign="top" style="border: 1pt solid windowtext; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
 <td width="326" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; border-width: 1pt 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -1212,13 +1212,13 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 <span lang="EN-GB">Connect keyboard and mouse to the USB ports</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
 <td width="326" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-![Bildergebnis für raspberry pi 3](openHAB2_Raspberry_beginner-s_walkthrough_files/image037.jpg)![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image038.jpg)![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image039.jpg)
+![Bildergebnis fÃ¼r raspberry pi 3](openHAB2_Raspberry_beginner-s_walkthrough_files/image037.jpg)![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image038.jpg)![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image039.jpg)
 
 </td>
 
@@ -1234,7 +1234,7 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 <td width="326" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image003.jpg)![Bildergebnis für raspberry pi 3](openHAB2_Raspberry_beginner-s_walkthrough_files/image040.jpg)
+![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image003.jpg)![Bildergebnis fÃ¼r raspberry pi 3](openHAB2_Raspberry_beginner-s_walkthrough_files/image040.jpg)
 
 </td>
 
@@ -1244,13 +1244,13 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 <td width="326" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-GB">Connect Raspberry with display using HDMI ( optional, will **not** be needed if you are going for the 7” Raspberry display setup)</span>
+<span lang="EN-GB">Connect Raspberry with display using HDMI ( optional, will **not** be needed if you are going for the 7â€ Raspberry display setup)</span>
 
 </td>
 
 <td width="326" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-![Bildergebnis für raspberry pi 3](openHAB2_Raspberry_beginner-s_walkthrough_files/image041.jpg)![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image042.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image043.jpg)
+![Bildergebnis fÃ¼r raspberry pi 3](openHAB2_Raspberry_beginner-s_walkthrough_files/image041.jpg)![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image042.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image043.jpg)
 
 </td>
 
@@ -1266,7 +1266,7 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 <td width="326" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image008.jpg)![Bildergebnis für raspberry pi 3](openHAB2_Raspberry_beginner-s_walkthrough_files/image044.jpg)
+![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image008.jpg)![Bildergebnis fÃ¼r raspberry pi 3](openHAB2_Raspberry_beginner-s_walkthrough_files/image044.jpg)
 
 </td>
 
@@ -1284,7 +1284,7 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 <td width="326" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image045.jpg)![Bildergebnis für raspberry pi 3](openHAB2_Raspberry_beginner-s_walkthrough_files/image046.jpg)
+![Product Details](openHAB2_Raspberry_beginner-s_walkthrough_files/image045.jpg)![Bildergebnis fÃ¼r raspberry pi 3](openHAB2_Raspberry_beginner-s_walkthrough_files/image046.jpg)
 
 </td>
 
@@ -1294,14 +1294,14 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-**<span lang="EN-GB" style='font-size: 14pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'> </span>**
+**<span lang="EN-GB" style='font-size: 14pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'>Â </span>**
 
-## <a name="_Toc485150888"><span lang="EN-GB">Optional: Installation of 7” Raspberry display and display case:</span></a>
+## <a name="_Toc485150888"><span lang="EN-GB">Optional: Installation of 7â€ Raspberry display and display case:</span></a>
 
 <span lang="EN-GB">The full tutorial will be found on:</span>
 
@@ -1311,7 +1311,7 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 [<span class="Heading9Char"><span lang="EN-GB" style="font-size: 10pt; line-height: 115%; color: windowtext; text-decoration: none;">https://www.youtube.com/watch?v=tK-w-wDvRTg</span></span>](https://www.youtube.com/watch?v=tK-w-wDvRTg)
 
-**<span lang="EN-GB">Remark</span>**<span lang="EN-GB">: I had an issue with plugging in the power supply to the micro USB power input on the circuit board of the display (like shown in the video). The Raspberry was still showing me the low power symbol (lightening symbol on the upper right corner) SOLUTION:  I had to plug in the power supply to the micro USB power input on the Raspberry itself. The display is now powered via the jumper cables. The standard display case is also allowing for both micro USB power inputs to be used.</span>
+**<span lang="EN-GB">Remark</span>**<span lang="EN-GB">: I had an issue with plugging in the power supply to the micro USB power input on the circuit board of the display (like shown in the video). The Raspberry was still showing me the low power symbol (lightening symbol on the upper right corner) SOLUTION:Â  I had to plug in the power supply to the micro USB power input on the Raspberry itself. The display is now powered via the jumper cables. The standard display case is also allowing for both micro USB power inputs to be used.</span>
 
 **<span lang="EN-GB">NOTE</span>**<span lang="EN-GB">: If the image on the display is having the wrong orientation, you can rotate the image by changing the configuration of Raspbian (see tutorial section Initial configuration of Raspbian)</span>
 
@@ -1445,13 +1445,13 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 <td width="326" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-GB">Assembly of the standard display. (Make sure you have inserted the MicroSD card since you won’t have access to the slot as soon as you mounted the case!)</span>
+<span lang="EN-GB">Assembly of the standard display. (Make sure you have inserted the MicroSD card since you wonâ€™t have access to the slot as soon as you mounted the case!)</span>
 
 <span lang="EN-GB">Just pull the back plate off the case, insert the display including the mounted Raspberry (make sure that the path cables and the display cables are not crushed between case and board), tighten it with the 4 screws and put the back plate into place</span>
 
 <span lang="EN-GB">Here is a good clip on YouTube:</span> [<span class="Heading9Char"><span lang="EN-GB" style="font-size: 10pt; color: windowtext; text-decoration: none;">https://www.youtube.com/watch?v=wpSxibZOmoo</span></span>](https://www.youtube.com/watch?v=wpSxibZOmoo)
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -1464,11 +1464,11 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 # <a name="_Toc485150890"><span lang="EN-GB">Chapter 4: Raspbian basic configuration</span></a>
 
-## <a name="_Toc485150891"><span lang="EN-GB">Starting up Raspberry or the first time – Raspbian PIXEL desktop</span></a>
+## <a name="_Toc485150891"><span lang="EN-GB">Starting up Raspberry or the first time â€“ Raspbian PIXEL desktop</span></a>
 
 <span lang="EN-GB">Since this tutorial is focussing on using the PIXEL GUI here are a few basic tips</span>
 
@@ -1478,16 +1478,16 @@ _<span lang="EN-GB">NOT REALLY an Alternative</span>_<span lang="EN-GB">: RaZber
 
 <span lang="EN-GB">PIXEL basic desktop (including the programs used in this tutorial) not unlike other PC OS desktops:</span>
 
-<span style="position: absolute; z-index: 251685888; margin-left: 346px; margin-top: 19px; width: 152px; height: 167px;">![network configuration](openHAB2_Raspberry_beginner-s_walkthrough_files/image055.png)</span><span style="position: absolute; z-index: 251677696; margin-left: 281px; margin-top: 14px; width: 197px; height: 108px;">![Bluetooth configuration](openHAB2_Raspberry_beginner-s_walkthrough_files/image056.png)</span><span style="position: absolute; z-index: 251669504; margin-left: 77px; margin-top: 13px; width: 158px; height: 100px;">![Terminal](openHAB2_Raspberry_beginner-s_walkthrough_files/image057.png)</span><span style="position: absolute; z-index: 251644928; margin-left: 12px; margin-top: 14px; width: 254px; height: 292px;">![Applications menu (incl. access to configuration)](openHAB2_Raspberry_beginner-s_walkthrough_files/image058.png)</span><span style="position: absolute; z-index: 251661312; margin-left: 56px; margin-top: 14px; width: 96px; height: 175px;">![File manager](openHAB2_Raspberry_beginner-s_walkthrough_files/image059.png)</span><span style="position: absolute; z-index: 251653120; margin-left: 27px; margin-top: 14px; width: 118px; height: 230px;">![Web browser](openHAB2_Raspberry_beginner-s_walkthrough_files/image060.png)</span>![Ähnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image061.jpg)
+<span style="position: absolute; z-index: 251685888; margin-left: 346px; margin-top: 19px; width: 152px; height: 167px;">![network configuration](openHAB2_Raspberry_beginner-s_walkthrough_files/image055.png)</span><span style="position: absolute; z-index: 251677696; margin-left: 281px; margin-top: 14px; width: 197px; height: 108px;">![Bluetooth configuration](openHAB2_Raspberry_beginner-s_walkthrough_files/image056.png)</span><span style="position: absolute; z-index: 251669504; margin-left: 77px; margin-top: 13px; width: 158px; height: 100px;">![Terminal](openHAB2_Raspberry_beginner-s_walkthrough_files/image057.png)</span><span style="position: absolute; z-index: 251644928; margin-left: 12px; margin-top: 14px; width: 254px; height: 292px;">![Applications menu (incl. access to configuration)](openHAB2_Raspberry_beginner-s_walkthrough_files/image058.png)</span><span style="position: absolute; z-index: 251661312; margin-left: 56px; margin-top: 14px; width: 96px; height: 175px;">![File manager](openHAB2_Raspberry_beginner-s_walkthrough_files/image059.png)</span><span style="position: absolute; z-index: 251653120; margin-left: 27px; margin-top: 14px; width: 118px; height: 230px;">![Web browser](openHAB2_Raspberry_beginner-s_walkthrough_files/image060.png)</span>![Ã„hnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image061.jpg)
 
-**<span lang="EN-GB"> </span>**
+**<span lang="EN-GB">Â </span>**
 
-**<span lang="EN-GB">NOTE:</span> **<span lang="EN-GB">If you are working with the 7” Raspberry display setup you might need to flip/rotate the display orientation. Just check the section” Optional: Change display orientation” later in this chapter</span>
+**<span lang="EN-GB">NOTE:</span> **<span lang="EN-GB">If you are working with the 7â€ Raspberry display setup you might need to flip/rotate the display orientation. Just check the sectionâ€ Optional: Change display orientationâ€ later in this chapter</span>
 
 **<span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>**
 
-**<span lang="EN-GB"> </span>**
+**<span lang="EN-GB">Â </span>**
 
 ### <a name="_Toc485150892"><span lang="EN-GB">Working with the Terminal:</span></a>
 
@@ -1559,7 +1559,7 @@ ls -la
 
 <span lang="EN-US">cd</span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-US">cd</span>
 
@@ -1567,7 +1567,7 @@ ls -la
 
 <span lang="EN-US">cd _directory_</span>
 
-_<span lang="EN-US"> </span>_
+_<span lang="EN-US">Â </span>_
 
 _<span lang="EN-US">cd /directory/directory</span>_
 
@@ -1615,13 +1615,13 @@ _<span lang="EN-US">cd /directory/directory</span>_
 
 <td width="206" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 154.25pt;">
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 </td>
 
 <td width="451" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 338.45pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -1631,13 +1631,13 @@ _<span lang="EN-US">cd /directory/directory</span>_
 
 <td width="206" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 154.25pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
 <td width="451" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 338.45pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -1647,13 +1647,13 @@ _<span lang="EN-US">cd /directory/directory</span>_
 
 <td width="206" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 154.25pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
 <td width="451" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 338.45pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -1663,13 +1663,13 @@ _<span lang="EN-US">cd /directory/directory</span>_
 
 <td width="206" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 154.25pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
 <td width="451" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 338.45pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -1679,13 +1679,13 @@ _<span lang="EN-US">cd /directory/directory</span>_
 
 <td width="206" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 154.25pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
 <td width="451" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 338.45pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -1695,12 +1695,12 @@ _<span lang="EN-US">cd /directory/directory</span>_
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 10pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB" style="font-size: 10pt; line-height: 115%;"> </span>
+<span lang="EN-GB" style="font-size: 10pt; line-height: 115%;">Â </span>
 
 ## <a name="_Toc485150894"><span lang="EN-GB">Initial configuration of Raspbian</span></a>
 
@@ -1710,13 +1710,13 @@ _<span lang="EN-US">cd /directory/directory</span>_
 
 <span lang="EN-GB">Since this tutorial is using the PIXEL GUI I always refer to the PIXEL way of configuring and only go back to the terminal way (text only) if it is required.</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150895"><span lang="EN-GB">Localisation:</span></a>
 
 <span lang="EN-GB">The 1.st thing you want to do is changing the localisation settings to make sure your keyboard layout and WiFi settings are matching.</span>
 
-**<span lang="EN-GB">NOTE:</span>** <span lang="EN-GB">Do not change the password before you have changed the keyboard layout since you might put in a different password than you expect (e.g. US qwerty vs. German qwertz results in “Raspberrz” instead of “Raspberry”)</span>
+**<span lang="EN-GB">NOTE:</span>** <span lang="EN-GB">Do not change the password before you have changed the keyboard layout since you might put in a different password than you expect (e.g. US qwerty vs. German qwertz results in â€œRaspberrzâ€ instead of â€œRaspberryâ€)</span>
 
 <table class="MsoTableGrid" style="border: medium none ; border-collapse: collapse;" border="1" cellspacing="0" cellpadding="0">
 
@@ -1768,45 +1768,45 @@ _<span lang="EN-US">cd /directory/directory</span>_
 
 <span lang="EN-US">Locale</span><span lang="EN-GB">: choose your language and country</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-US">Timezone</span><span lang="EN-GB">: choose timezone</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-US">Keyboard</span><span lang="EN-GB">: choose keyboard language and specific keyboard layout</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-US">WiFi Country</span><span lang="EN-GB">: choose country specific WiFi settings</span>
 
@@ -1814,19 +1814,19 @@ _<span lang="EN-US">cd /directory/directory</span>_
 
 <td width="326" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image065.jpg)
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image066.jpg)
 
 ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image067.jpg)
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image068.jpg)
 
@@ -1844,7 +1844,7 @@ _<span lang="EN-US">cd /directory/directory</span>_
 
 <td width="326" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -1854,13 +1854,13 @@ _<span lang="EN-US">cd /directory/directory</span>_
 
 </table>
 
-**<span lang="EN-GB"> </span>**
+**<span lang="EN-GB">Â </span>**
 
-**<span lang="EN-GB"> </span>**
+**<span lang="EN-GB">Â </span>**
 
 ### <a name="_Toc485150896"><span lang="EN-GB">Optional: Change display orientation</span></a>
 
-<span lang="EN-GB">If you are working with the 7” Raspberry display setup you might need to flip/rotate the display orientation for specific cases</span>
+<span lang="EN-GB">If you are working with the 7â€ Raspberry display setup you might need to flip/rotate the display orientation for specific cases</span>
 
 <table class="MsoTableGrid" style="border: medium none ; border-collapse: collapse;" border="1" cellspacing="0" cellpadding="0">
 
@@ -1876,7 +1876,7 @@ _<span lang="EN-US">cd /directory/directory</span>_
 
 <td width="326" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; border-width: 1pt 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-![Ähnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image069.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image070.jpg)
+![Ã„hnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image069.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image070.jpg)
 
 </td>
 
@@ -1922,11 +1922,11 @@ lcd_rotate=2
 
 <span lang="EN-GB">Optional: You can choose from different angles</span>
 
-<span lang="EN-GB">    0 degrees rotation</span>
+<span lang="EN-GB">Â Â Â  0 degrees rotation</span>
 
 <span lang="EN-GB">or</span>
 
-<span lang="EN-GB">  90 degrees rotation</span>
+<span lang="EN-GB">Â  90 degrees rotation</span>
 
 <span lang="EN-GB">or</span>
 
@@ -1948,7 +1948,7 @@ lcd_rotate=2
 
 <td width="326" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-US">display_rotate=0</span>
 
@@ -2019,11 +2019,11 @@ sudo reboot
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150897"><span lang="EN-GB">Changing Password:</span></a>
 
-<span lang="EN-GB">This is important to secure your standard Raspberry user “pi” before you connect the Raspberry to the network.</span>
+<span lang="EN-GB">This is important to secure your standard Raspberry user â€œpiâ€ before you connect the Raspberry to the network.</span>
 
 **<span lang="EN-GB">NOTE:</span>** <span lang="EN-GB">Make sure you have changed the keyboard layout to your requirements before change the password.</span>
 
@@ -2073,7 +2073,7 @@ sudo reboot
 
 <td width="326" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-GB">Enter initial (for standard user “pi” it is “Raspberry” and your new password</span>
+<span lang="EN-GB">Enter initial (for standard user â€œpiâ€ it is â€œRaspberryâ€ and your new password</span>
 
 </td>
 
@@ -2093,12 +2093,12 @@ _yourpassword_
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-**<span lang="EN-GB" style='font-family: "Calibri Light","sans-serif";'> </span>**
+**<span lang="EN-GB" style='font-family: "Calibri Light","sans-serif";'>Â </span>**
 
 ### <a name="_Toc485150898"><span lang="EN-GB">Enabling interfaces:</span></a>
 
@@ -2158,7 +2158,7 @@ _yourpassword_
 
 <td width="326" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-SSH:    Enable
+SSH:Â Â Â  Enable
 
 Serial: Enable
 
@@ -2170,12 +2170,12 @@ Serial: Enable
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 **<span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>**
 
-**<span lang="EN-GB"> </span>**
+**<span lang="EN-GB">Â </span>**
 
 ### <a name="_Toc485150899"><span lang="EN-GB">Connect Raspberry to network:</span></a><span lang="EN-GB" style="font-size: 10pt; line-height: 112%;"></span>
 
@@ -2237,7 +2237,7 @@ _<span style="font-size: 10pt;">yourwifipassword</span>_
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150900"><span lang="EN-GB">Check the IP address of the Raspberry:</span></a>
 
@@ -2257,7 +2257,7 @@ _<span style="font-size: 10pt;">yourwifipassword</span>_
 
 <td width="389" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; border-width: 1pt 1pt 1pt medium; padding: 0cm 5.4pt; width: 292.1pt;">
 
-![Ähnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image075.jpg)
+![Ã„hnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image075.jpg)
 
 </td>
 
@@ -2305,7 +2305,7 @@ ifconfig
 
 **<span lang="EN-GB">NOTE:</span>** <span lang="EN-GB">You might want to set your IP address of the Raspberry to static, if you get problems with the lease time setting of your gateway (IP address is changing whenever you reconnect to the network)</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150901"><span lang="EN-GB">Update / Upgrade Raspbian:</span></a>
 
@@ -2325,7 +2325,7 @@ ifconfig
 
 <td width="389" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; border-width: 1pt 1pt 1pt medium; padding: 0cm 5.4pt; width: 292.1pt;">
 
-![Ähnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image075.jpg)
+![Ã„hnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image075.jpg)
 
 </td>
 
@@ -2355,9 +2355,9 @@ ifconfig
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 **<span lang="EN-GB" style='font-size: 13pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'>  
 </span>**
@@ -2366,7 +2366,7 @@ ifconfig
 
 <span lang="EN-GB">The following settings and configuration is just for additional information and might not be needed to setup openHAB2\. Some of the settings and configuration might still be useful.</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150903"><span lang="EN-GB">Check partition size on MicroSD card:</span></a>
 
@@ -2386,7 +2386,7 @@ ifconfig
 
 <td width="389" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; border-width: 1pt 1pt 1pt medium; padding: 0cm 5.4pt; width: 292.1pt;">
 
-![Ähnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image076.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image077.jpg)
+![Ã„hnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image076.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image077.jpg)
 
 </td>
 
@@ -2420,7 +2420,7 @@ sudo fdisk -l
 
 <span lang="EN-GB">Example for 16 GB:</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -2436,7 +2436,7 @@ sudo fdisk -l
 
 <td width="389" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 292.1pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -2528,13 +2528,13 @@ sudo raspi-config
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150904"><span lang="EN-GB">Create a Desktop icon and link it to a application</span></a><span lang="EN-GB"></span>
 
 <span lang="EN-GB">To be able to create a Icon you have to first create a *.desktop file</span>
 
-**<span lang="EN-GB">NOTE:</span>** <span lang="EN-GB">This example is creating the desktop icon for the user “pi”</span>
+**<span lang="EN-GB">NOTE:</span>** <span lang="EN-GB">This example is creating the desktop icon for the user â€œpiâ€</span>
 
 <table class="MsoTableGrid" style="border: medium none ; border-collapse: collapse;" border="1" cellspacing="0" cellpadding="0">
 
@@ -2550,7 +2550,7 @@ sudo raspi-config
 
 <td width="326" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; border-width: 1pt 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-![Ähnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image078.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image079.jpg)
+![Ã„hnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image078.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image079.jpg)
 
 </td>
 
@@ -2560,7 +2560,7 @@ sudo raspi-config
 
 <td width="326" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-GB">Go to the directory desktop for your “pi” user</span>
+<span lang="EN-GB">Go to the directory desktop for your â€œpiâ€ user</span>
 
 </td>
 
@@ -2602,7 +2602,7 @@ sudo nano _yourdesktopfile_.desktop
 
 <span lang="EN-GB">Application for shortcut:</span> <span lang="EN-US">YourShortcutApp</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -2655,13 +2655,13 @@ Terminal=false
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-**<span lang="EN-GB" style='font-family: "Calibri Light","sans-serif";'> </span>**
+**<span lang="EN-GB" style='font-family: "Calibri Light","sans-serif";'>Â </span>**
 
 ### <a name="_Toc485150905"><span lang="EN-GB">Enabling root user:</span></a>
 
-<span lang="EN-GB">Since by default the “root” disabled it can’t be used. You might want to enable it for certain purposes like e.g. enabling the root user for samba file server to get full access to the directories from a PC (see chapter setup samba server)</span>
+<span lang="EN-GB">Since by default the â€œrootâ€ disabled it canâ€™t be used. You might want to enable it for certain purposes like e.g. enabling the root user for samba file server to get full access to the directories from a PC (see chapter setup samba server)</span>
 
-**<span lang="EN-GB">NOTE:</span>** <span lang="EN-GB">There is a reason for the “root” being disabled! Enabling the user is allowing full access to the Raspbian and therefore creating a security risk. Please always consider whether you really want to enable this user!</span>
+**<span lang="EN-GB">NOTE:</span>** <span lang="EN-GB">There is a reason for the â€œrootâ€ being disabled! Enabling the user is allowing full access to the Raspbian and therefore creating a security risk. Please always consider whether you really want to enable this user!</span>
 
 <table class="MsoTableGrid" style="border: medium none ; border-collapse: collapse;" border="1" cellspacing="0" cellpadding="0">
 
@@ -2677,7 +2677,7 @@ Terminal=false
 
 <td width="326" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; border-width: 1pt 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-![Ähnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image076.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image080.jpg)
+![Ã„hnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image076.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image080.jpg)
 
 </td>
 
@@ -2705,7 +2705,7 @@ sudo passwd root
 
 <td width="326" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-GB">Just enter twice the new password for the “root” user</span>
+<span lang="EN-GB">Just enter twice the new password for the â€œrootâ€ user</span>
 
 </td>
 
@@ -2723,11 +2723,11 @@ _rootpassword_
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150906"><span lang="EN-GB">Enabling remote SSH access for root user:</span></a>
 
-**<span lang="EN-GB">NOTE:</span>** <span lang="EN-GB">There is a reason for the “root” not being enabled for SSH! Enabling the user for SSH is allowing full remote access to the Raspbian and therefore creating a significant security risk. Please always consider whether you really want to enable this user for SSH!</span>
+**<span lang="EN-GB">NOTE:</span>** <span lang="EN-GB">There is a reason for the â€œrootâ€ not being enabled for SSH! Enabling the user for SSH is allowing full remote access to the Raspbian and therefore creating a significant security risk. Please always consider whether you really want to enable this user for SSH!</span>
 
 <table class="MsoTableGrid" style="border: medium none ; border-collapse: collapse;" border="1" cellspacing="0" cellpadding="0">
 
@@ -2743,7 +2743,7 @@ _rootpassword_
 
 <td width="326" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; border-width: 1pt 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-![Ähnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image078.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image081.jpg)
+![Ã„hnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image078.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image081.jpg)
 
 </td>
 
@@ -2843,16 +2843,16 @@ sudo reboot
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-**<span lang="EN-GB" style='font-size: 13pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'> </span>**
+**<span lang="EN-GB" style='font-size: 13pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'>Â </span>**
 
 ## <a name="_Toc485150907"><span lang="EN-GB">Optional: Raspbian PIXEL screensaver (xscreensaver)</span></a>
 
-<span lang="EN-GB">If you are working with the 7” Raspberry display setup you might want to use a screensaver as well.</span>
+<span lang="EN-GB">If you are working with the 7â€ Raspberry display setup you might want to use a screensaver as well.</span>
 
 ### <a name="_Toc485150908"><span lang="EN-GB">Installation of xscreensaver:</span></a>
 
@@ -2870,7 +2870,7 @@ sudo reboot
 
 <td width="326" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; border-width: 1pt 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-![Ähnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image076.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image080.jpg)
+![Ã„hnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image076.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image080.jpg)
 
 </td>
 
@@ -2898,7 +2898,7 @@ sudo reboot
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150909"><span lang="EN-GB">Configuration of xscreensaver:</span></a>
 
@@ -2920,7 +2920,7 @@ sudo reboot
 
 <span lang="EN-GB">--Screensaver</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -2976,7 +2976,7 @@ sudo reboot
 
 <span lang="EN-US"><check></span> <span lang="EN-GB">Quick Power-off in Blank Only Mode</span>
 
-<span lang="EN-GB"> (Display Power Management)</span>
+<span lang="EN-GB">Â (Display Power Management)</span>
 
 <span lang="EN-GB">NOTE: This is just a sample switching off the screen after 10 minutes</span>
 
@@ -3000,7 +3000,7 @@ sudo reboot
 
 <td width="326" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -3013,11 +3013,11 @@ sudo reboot
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ## <a name="_Toc485150910"><span lang="EN-GB">Optional: Start Chromium Web server on Raspbian boot</span></a>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150911"><span lang="EN-GB">Configure the autostart file:</span></a>
 
@@ -3035,7 +3035,7 @@ sudo reboot
 
 <td width="326" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; border-width: 1pt 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-![Ähnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image076.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image080.jpg)
+![Ã„hnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image076.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image080.jpg)
 
 </td>
 
@@ -3081,7 +3081,7 @@ sudo reboot
 
 <span lang="EN-GB">Optional parameters:</span>
 
-<span lang="EN-GB">--kiosk (for full screen mode. NOTE: to exit full screen mode you have to press “Alt+F4” on the keyboard of the Raspberry, so you have to have a keyboard installed to exit this mode!)</span>
+<span lang="EN-GB">--kiosk (for full screen mode. NOTE: to exit full screen mode you have to press â€œAlt+F4â€ on the keyboard of the Raspberry, so you have to have a keyboard installed to exit this mode!)</span>
 
 <span lang="EN-GB">--incognito (for incognito mode of the browser)</span>
 
@@ -3137,7 +3137,7 @@ sudo reboot
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150912"><span lang="EN-GB">Select the start URL for Chromium web browser:</span></a>
 
@@ -3195,7 +3195,7 @@ sudo reboot
 
 <span lang="EN-GB">Now Chromium is allowing you to enter an additional URL which you can ignore</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -3239,12 +3239,12 @@ sudo reboot
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 # <a name="_Toc485150913"><span lang="EN-GB">Chapter 5: Setting up Raspbian for access via PC</span></a>
 
@@ -3274,7 +3274,7 @@ sudo reboot
 
 <td width="320" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 239.95pt;">
 
-<span lang="EN-GB">Enter Hostname (pi@ in front of the IP is giving the user you want to use for connecting, in this case the standard user “pi”), Port and Connection type</span>
+<span lang="EN-GB">Enter Hostname (pi@ in front of the IP is giving the user you want to use for connecting, in this case the standard user â€œpiâ€), Port and Connection type</span>
 
 <span lang="EN-GB">Select Open to launch the terminal</span>
 
@@ -3338,7 +3338,7 @@ Yes
 
 <td width="320" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 239.95pt;">
 
-<span lang="EN-GB">Now a terminal window is opening on our PC asking you to enter the “pi” user password</span>
+<span lang="EN-GB">Now a terminal window is opening on our PC asking you to enter the â€œpiâ€ user password</span>
 
 </td>
 
@@ -3378,7 +3378,7 @@ _yourpassword_
 
 <td width="337" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 252.75pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -3388,18 +3388,18 @@ _yourpassword_
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 **<span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>**
 
-**<span lang="EN-GB"> </span>**
+**<span lang="EN-GB">Â </span>**
 
 ## <a name="_Toc485150915"><span lang="EN-GB">Optional: Connect to the Raspberry file system from your windows system using WinSCP:</span></a>
 
-**<span lang="EN-GB">NOTE:</span> **<span lang="EN-GB">The connection can only access the rights of the Raspberry user. So the standard user “pi” will not have the writing rights for multiple directories.</span> <span lang="EN-GB" style="font-size: 10pt; line-height: 115%;">For full access you have to use the user “root” (user needs to be enabled since it is disabled in standard setup, procedure shown later in the tutorial), but enabling this user for SSH access is opening up a significant security risk, so it is recommended to use as Raspberry based Samba server for full access to specific directories (shown later in the tutorial).</span>
+**<span lang="EN-GB">NOTE:</span> **<span lang="EN-GB">The connection can only access the rights of the Raspberry user. So the standard user â€œpiâ€ will not have the writing rights for multiple directories.</span> <span lang="EN-GB" style="font-size: 10pt; line-height: 115%;">For full access you have to use the user â€œrootâ€ (user needs to be enabled since it is disabled in standard setup, procedure shown later in the tutorial), but enabling this user for SSH access is opening up a significant security risk, so it is recommended to use as Raspberry based Samba server for full access to specific directories (shown later in the tutorial).</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <table class="MsoTableGrid" style="border: medium none ; border-collapse: collapse;" border="1" cellspacing="0" cellpadding="0">
 
@@ -3435,7 +3435,7 @@ Enter Host name: _xxx.xxx.xxx.xxx_
 
 <span lang="EN-GB">Enter User name: pi (standard user with limited access to the file system)</span>
 
-<span lang="EN-GB">Enter Password for “pi”</span>
+<span lang="EN-GB">Enter Password for â€œpiâ€</span>
 
 </td>
 
@@ -3477,7 +3477,7 @@ Enter Host name: _xxx.xxx.xxx.xxx_
 
 <td width="326" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-GB">WinSCP is launched showing the windows directory on the left side and the “pi” user home directory of the Raspberry on the right side of the window</span>
+<span lang="EN-GB">WinSCP is launched showing the windows directory on the left side and the â€œpiâ€ user home directory of the Raspberry on the right side of the window</span>
 
 </td>
 
@@ -3493,12 +3493,12 @@ Enter Host name: _xxx.xxx.xxx.xxx_
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 **<span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Lucida Bright","serif";'>  
 </span>**
 
-**<span lang="EN-GB" style='line-height: 115%; font-family: "Lucida Bright","serif";'> </span>**
+**<span lang="EN-GB" style='line-height: 115%; font-family: "Lucida Bright","serif";'>Â </span>**
 
 ## <a name="_Toc485150916"><span lang="EN-GB">Setup Samba server</span></a>
 
@@ -3506,7 +3506,7 @@ Enter Host name: _xxx.xxx.xxx.xxx_
 
 <span lang="EN-GB">NOTE: You can also follow the alternative instructions for a openHAB2 centric installation at:</span> [<span class="Heading9Char"><span lang="EN-GB" style="font-size: 10pt; line-height: 115%; color: windowtext; text-decoration: none;">http://docs.openhab.org/installation/linux.html#network-sharing</span></span>](http://docs.openhab.org/installation/linux.html#network-sharing)
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <table class="MsoTableGrid" style="border: medium none ; border-collapse: collapse;" border="1" cellspacing="0" cellpadding="0">
 
@@ -3522,7 +3522,7 @@ Enter Host name: _xxx.xxx.xxx.xxx_
 
 <td width="326" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; border-width: 1pt 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-![Ähnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image076.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image080.jpg)
+![Ã„hnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image076.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image080.jpg)
 
 </td>
 
@@ -3614,7 +3614,7 @@ read only = no
 
 <span lang="EN-US"># WINS Support - Tells the NMBD component of Samba to enable its WINS Server</span>
 
-<span lang="EN-US">#   wins support = no</span>
+<span lang="EN-US">#Â Â  wins support = no</span>
 
 <span lang="EN-US">wins support = yes</span>
 
@@ -3702,7 +3702,7 @@ testparm
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150917"><span lang="EN-GB">Common samba server commands:</span></a>
 
@@ -3803,7 +3803,7 @@ sudo smbpasswd -e _sambausr_
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ## <a name="_Toc485150918"><span lang="EN-GB">Optional: Generic samba user setup</span></a>
 
@@ -3817,7 +3817,7 @@ sudo smbpasswd -e _sambausr_
 
 <td width="326" valign="top" style="border: 1pt solid windowtext; padding: 0cm 5.4pt; width: 244.45pt;">
 
-<span lang="EN-GB">Create a special user</span>_<span lang="EN-US">sambausr</span>__ <span lang="EN-US"></span> _<span lang="EN-GB"> for the samba server so you not have to use the root or pi user to allow access to the directories on the Raspberry</span>
+<span lang="EN-GB">Create a special user</span>_<span lang="EN-US">sambausr</span>__ <span lang="EN-US"></span> _<span lang="EN-GB">Â for the samba server so you not have to use the root or pi user to allow access to the directories on the Raspberry</span>
 
 </td>
 
@@ -3861,15 +3861,15 @@ _<span lang="EN-US">sambausrpassword</span>_ <span lang="EN-GB">and optional inf
 
 <span lang="EN-US">Enter the new value, or press ENTER for the default</span>
 
-<span lang="EN-US">        Full Name []:</span>
+<span lang="EN-US">Â Â Â Â Â Â Â  Full Name []:</span>
 
-<span lang="EN-US">        Room Number []:</span>
+<span lang="EN-US">Â Â Â Â Â Â Â  Room Number []:</span>
 
-<span lang="EN-US">        Work Phone []:</span>
+<span lang="EN-US">Â Â Â Â Â Â Â  Work Phone []:</span>
 
-<span lang="EN-US">        Home Phone []:</span>
+<span lang="EN-US">Â Â Â Â Â Â Â  Home Phone []:</span>
 
-<span lang="EN-US">        Other []:</span>
+<span lang="EN-US">Â Â Â Â Â Â Â  Other []:</span>
 
 <span lang="EN-US">Is the information correct?</span> [Y/n] y
 
@@ -3917,9 +3917,9 @@ Added user sambausr.
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-**<span lang="EN-GB">NOTE:</span>** <span lang="EN-GB">Instead of allowing the</span> _<span lang="EN-US">sambausr</span>_ <span lang="EN-US"></span> <span lang="EN-GB">to have full access on the Raspbian file system to some specific folders by applying the</span> <span lang="EN-US">chown</span> <span lang="EN-GB">command, you might consider enable the root user and use the root user to connect to the Raspberry from the file system (see chapter Optional Raspberry settings and configuration). But be aware that enabling the “root” user is creating a security risk!</span>
+**<span lang="EN-GB">NOTE:</span>** <span lang="EN-GB">Instead of allowing the</span> _<span lang="EN-US">sambausr</span>_ <span lang="EN-US"></span> <span lang="EN-GB">to have full access on the Raspbian file system to some specific folders by applying the</span> <span lang="EN-US">chown</span> <span lang="EN-GB">command, you might consider enable the root user and use the root user to connect to the Raspberry from the file system (see chapter Optional Raspberry settings and configuration). But be aware that enabling the â€œrootâ€ user is creating a security risk!</span>
 
 <table class="MsoTableGrid" style="border: medium none ; border-collapse: collapse;" border="1" cellspacing="0" cellpadding="0">
 
@@ -3965,12 +3965,12 @@ Added user root.
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ## <a name="_Toc485150919"><span lang="EN-GB">Optional: Mapping Raspbian samba directories to Windows (IOS and Linux mapping process can be found online):</span></a>
 
@@ -4030,7 +4030,7 @@ Added user root.
 
 <span lang="EN-US">net use Z: \\_xxx.xxx.xxx.xxx_\RaspberryPiDirectories /user:sambausr _sambausrpassword_ /persistent:no</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -4043,11 +4043,11 @@ Added user root.
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 # <a name="_Toc485150920"><span lang="EN-GB">Chapter 6: Installation of openHAB2 on Raspberry</span></a>
 
-<span lang="EN-GB">This tutorial is only focussing on the package repository installation of the stable version and only on the add-ons for the listed hardware. All other installations are described on the openhab.org site installation for Linux: (</span>[<span class="Heading9Char"><span lang="EN-GB" style="font-size: 10pt; line-height: 115%; color: windowtext; text-decoration: none;">http://docs.openhab.org/installation/linux.html#package-repository-installation</span></span>](http://docs.openhab.org/installation/linux.html#package-repository-installation)<span lang="EN-GB">) For the Raspbian you have to go for the “Apt Based Systems” part of it.</span>
+<span lang="EN-GB">This tutorial is only focussing on the package repository installation of the stable version and only on the add-ons for the listed hardware. All other installations are described on the openhab.org site installation for Linux: (</span>[<span class="Heading9Char"><span lang="EN-GB" style="font-size: 10pt; line-height: 115%; color: windowtext; text-decoration: none;">http://docs.openhab.org/installation/linux.html#package-repository-installation</span></span>](http://docs.openhab.org/installation/linux.html#package-repository-installation)<span lang="EN-GB">) For the Raspbian you have to go for the â€œApt Based Systemsâ€ part of it.</span>
 
 <table class="MsoTableGrid" style="border: medium none ; border-collapse: collapse;" border="1" cellspacing="0" cellpadding="0">
 
@@ -4063,7 +4063,7 @@ Added user root.
 
 <td width="366" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; border-width: 1pt 1pt 1pt medium; padding: 0cm 5.4pt; width: 274.65pt;">
 
-![Ähnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image076.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image098.jpg)
+![Ã„hnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image076.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image098.jpg)
 
 </td>
 
@@ -4175,9 +4175,9 @@ sudo apt-get update
 
 <span lang="EN-US">sudo wget https://openhab.ci.cloudbees.com/job/openHAB2-Bundles/lastSuccessfulBuild/org.openhab.binding%24org.openhab.binding.wifiled/artifact/org.openhab.binding/org.openhab.binding.wifiled/2.1.0-SNAPSHOT/org.openhab.binding.wifiled-2.1.0-SNAPSHOT.jar</span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-GB">(but here!)</span>
 
@@ -4201,7 +4201,7 @@ sudo apt-get update
 
 <span lang="EN-US">sudo systemctl status openhab2.service</span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-US">sudo systemctl daemon-reload</span>
 
@@ -4218,7 +4218,7 @@ sudo apt-get update
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150921"><span lang="EN-GB">Common openHAB2 service commands:</span></a>
 
@@ -4312,7 +4312,7 @@ sudo apt-get update
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ## <a name="_Toc485150922"><span lang="EN-GB">openHAB2 configuration for the samba server:</span></a>
 
@@ -4326,7 +4326,7 @@ sudo apt-get update
 
 <td width="320" valign="top" style="border: 1pt solid windowtext; padding: 0cm 5.4pt; width: 239.95pt;">
 
-<span lang="EN-GB">The shares are configured to be not open for guests nor to the public. Let’s activate the “openhab” user as a samba user</span>
+<span lang="EN-GB">The shares are configured to be not open for guests nor to the public. Letâ€™s activate the â€œopenhabâ€ user as a samba user</span>
 
 </td>
 
@@ -4362,7 +4362,7 @@ Added user openhab.
 
 <td width="320" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 239.95pt;">
 
-<span lang="EN-GB">Be aware, that creating and later using a specific user will ensure that permissions are honoured. Make sure, the “openhab” user has ownership and/or write access to the openHAB2 configuration files. This can be accomplished by executing:</span>
+<span lang="EN-GB">Be aware, that creating and later using a specific user will ensure that permissions are honoured. Make sure, the â€œopenhabâ€ user has ownership and/or write access to the openHAB2 configuration files. This can be accomplished by executing:</span>
 
 </td>
 
@@ -4450,12 +4450,12 @@ Added user openhab.
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ## <a name="_Toc485150923"><span lang="EN-GB">openHAB2 Privileges for Common Peripherals?</span></a>
 
@@ -4477,7 +4477,7 @@ Added user openhab.
 
 <td width="326" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; border-width: 1pt 1pt 1pt medium; padding: 0cm 5.4pt; width: 244.45pt;">
 
-![Ähnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image076.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image080.jpg)
+![Ã„hnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image076.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image080.jpg)
 
 </td>
 
@@ -4525,7 +4525,7 @@ sudo adduser openhab tty
 
 <span lang="EN-GB">Optional: Enter command</span>
 
-<span lang="EN-GB">(f you are looking to enable sound privileges for openHAB2, it will also be necessary to add openHAB2 to the “audio” group.)</span>
+<span lang="EN-GB">(f you are looking to enable sound privileges for openHAB2, it will also be necessary to add openHAB2 to the â€œaudioâ€ group.)</span>
 
 </td>
 
@@ -4541,7 +4541,7 @@ sudo adduser openhab audio
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150925"><span lang="EN-GB">Granting java environment access to serial ports</span></a>
 
@@ -4559,7 +4559,7 @@ sudo adduser openhab audio
 
 <td width="321" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; border-width: 1pt 1pt 1pt medium; padding: 0cm 5.4pt; width: 240.95pt;">
 
-![Ähnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image078.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image101.jpg)
+![Ã„hnliches Foto](openHAB2_Raspberry_beginner-s_walkthrough_files/image078.jpg)![](openHAB2_Raspberry_beginner-s_walkthrough_files/image101.jpg)
 
 </td>
 
@@ -4601,11 +4601,11 @@ sudo nano openhab2
 
 <td width="329" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 246.4pt;">
 
-<span lang="EN-GB">Change the text from (nothing between the “”)</span>
+<span lang="EN-GB">Change the text from (nothing between the â€œâ€)</span>
 
-<span lang="EN-GB">To (something between the “”)</span>
+<span lang="EN-GB">To (something between the â€œâ€)</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -4662,17 +4662,17 @@ sudo reboot
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 # <a name="_Toc485150926"><span lang="EN-GB">Chapter 7: Installation of Eclipse Smart Home Designer</span></a>
 
 <span lang="EN-GB">(Optional but strongly recommended for easy editing of openHAB2 configuration files; incl. syntax highlighting)</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB">The complete installation guide can be found on :</span> [<span class="Heading9Char"><span lang="EN-GB" style="font-size: 10pt; line-height: 115%; color: windowtext; text-decoration: none;">http://docs.openhab.org/installation/designer.html#setup</span></span>](http://docs.openhab.org/installation/designer.html#setup)
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ## <a name="_Toc485150927"><span lang="EN-GB">Installation guide for windows (Eclipse Smart Home Designer and Java Runtime Environment):</span></a>
 
@@ -4700,7 +4700,7 @@ sudo reboot
 
 <td width="291" valign="top" style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 1pt 1pt; padding: 0cm 5.4pt; width: 218.05pt;">
 
-<span lang="EN-GB">Optional: Download the 32 bit version since there are reports about the “stable” 64 bit version running not stable</span>
+<span lang="EN-GB">Optional: Download the 32 bit version since there are reports about the â€œstableâ€ 64 bit version running not stable</span>
 
 </td>
 
@@ -4752,29 +4752,29 @@ _yourpcdrive:\yourdestionation\_eclipsesmarthome
 
 <span lang="EN-GB">Go to the java homepage download section</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB">Select “See all Java downloads”</span>
+<span lang="EN-GB">Select â€œSee all Java downloadsâ€</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB">Or directly go to:</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB">Download the 64bit version (something like jre-8u131-windows-x64.exe ) or the 32bit depending on your system</span>
 
@@ -4802,29 +4802,29 @@ _yourpcdrive:\yourdestionation\_eclipsesmarthome
 
 <span lang="EN-GB">Start the Java installer</span>
 
-<span lang="EN-GB">Select on the first screen “Change destination folder”</span>
+<span lang="EN-GB">Select on the first screen â€œChange destination folderâ€</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB">Change the folder to \jre inside your Eclipse Smart Home Designer folder</span> _<span lang="EN-US">yourpcdrive:\yourdestionation\eclipseSmart Home</span>_<span lang="EN-GB">since this is the loaction your Eclipse Smart Home Designer is expecting the JRE.</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB">NOTE: This is now delivering you a “portable” version of the Eclipse Smart Home Designer which just can be copied/moved to different locations or machines without the need of reinstalling.</span>
+<span lang="EN-GB">NOTE: This is now delivering you a â€œportableâ€ version of the Eclipse Smart Home Designer which just can be copied/moved to different locations or machines without the need of reinstalling.</span>
 
 </td>
 
@@ -4848,12 +4848,12 @@ _<span lang="EN-US">yourpcdrive:\yourdestionation\</span>_<span lang="EN-US">ecl
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 **<span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>**
 
-**<span lang="EN-GB"> </span>**
+**<span lang="EN-GB">Â </span>**
 
 ### <a name="_Toc485150928"><span lang="EN-GB">Launching first time:</span></a>
 
@@ -4887,15 +4887,15 @@ _<span lang="EN-US">yourpcdrive:\yourdestionation\</span>_<span lang="EN-US">ecl
 
 <span lang="EN-GB">NOTE: Make sure that you have mapped the samba drive before (see openHAB2 setup for the samba server)</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB">If you have chosen a different drive letter in the mapping, just replace the Z:</span>
 
@@ -4931,12 +4931,12 @@ Z:\etc\openhab2
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 # <a name="_Toc485150929"><span lang="EN-GB">Chapter 8: Initializing openHAB2 (finally: first startup)</span></a>
 
@@ -4956,7 +4956,7 @@ Z:\etc\openhab2
 
 <span lang="EN-GB">This will install a standard set of GUIs in openHAB2</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -4994,14 +4994,14 @@ Z:\etc\openhab2
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB">Now you are ready for the configuration of your home automation project in openHAB2!</span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 # <a name="_Toc485150930"><span lang="EN-GB">Chapter 10: General information about configuring openHAB2</span></a>
 
@@ -5009,13 +5009,13 @@ Z:\etc\openhab2
 
 [<span class="Heading9Char"><span lang="EN-GB" style="font-size: 10pt; line-height: 115%; color: windowtext; text-decoration: none;">http://www.openhab.org/</span></span>](http://www.openhab.org/)
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB">As a start you should read the beginners tutorial form beginning to end so you understand the basic concept of things, items, rules etc. and how they are mend to work together;</span>
 
 [<span class="Heading9Char"><span lang="EN-GB" style="font-size: 10pt; line-height: 115%; color: windowtext; text-decoration: none;">http://docs.openhab.org/introduction.html</span></span>](http://docs.openhab.org/introduction.html)
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 # <a name="_Toc485150931"><span lang="EN-GB">openHAB (no 2) vs. openHAB2</span></a>
 
@@ -5038,13 +5038,13 @@ Z:\etc\openhab2
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 # <a name="_Toc485150932"><span lang="EN-GB">Chapter 10: Configuring openHAB2 using PAPER UI</span></a>
 
 <span lang="EN-GB">Since the online documentation is mostly referring to PAPER UI GUI I will try to stick to this GUI as long as possible.</span>
 
-<span lang="EN-GB">-<span style='font-family: "Times New Roman"; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;'></span> </span><span lang="EN-GB">HABmin GUI will be needed for some  Z-Wave installation</span>
+<span lang="EN-GB">-<span style='font-family: "Times New Roman"; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;'></span> </span><span lang="EN-GB">HABmin GUI will be needed for someÂ  Z-Wave installation</span>
 
 <span lang="EN-GB">-<span style='font-family: "Times New Roman"; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;'></span> </span><span lang="EN-GB">HABPANEL GUI will be used to create the final user frontend for this project</span>
 
@@ -5062,7 +5062,7 @@ Z:\etc\openhab2
 
 <span lang="EN-GB">Start PAPER UI</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -5176,12 +5176,12 @@ Z:\etc\openhab2
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-**<span lang="EN-GB" style='font-size: 13pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'> </span>**
+**<span lang="EN-GB" style='font-size: 13pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'>Â </span>**
 
 ## <a name="_Toc485150934"><span lang="EN-GB">General process of adding new things to the configuration</span></a>
 
@@ -5253,7 +5253,7 @@ Z:\etc\openhab2
 
 <span lang="EN-GB">NOTE: You should find all bindings there which we installed in the step Installing Add-ons.</span>
 
-<span lang="EN-GB">Additionally you will find the</span> <span lang="EN-US"><WiFi LED Binding>,</span> <span lang="EN-GB">which we manually installed in “Chapter 6: Installation of openHAB2 on Raspberry” since this is a snapshot Binding which we managed manually</span>
+<span lang="EN-GB">Additionally you will find the</span> <span lang="EN-US"><WiFi LED Binding>,</span> <span lang="EN-GB">which we manually installed in â€œChapter 6: Installation of openHAB2 on Raspberryâ€ since this is a snapshot Binding which we managed manually</span>
 
 </td>
 
@@ -5269,12 +5269,12 @@ Z:\etc\openhab2
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ## <a name="_Toc485150935"><span lang="EN-GB">Adding local things connected via network (IP)</span></a>
 
@@ -5328,11 +5328,11 @@ Z:\etc\openhab2
 
 <span lang="EN-GB">Optional: Select in your PAPER UI inbox the add blue add icon (+)</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB">Search for the thing manually using the YamahaReceiver Binding</span>
 
@@ -5378,12 +5378,12 @@ Z:\etc\openhab2
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-**<span lang="EN-GB" style='font-family: "Calibri Light","sans-serif";'> </span>**
+**<span lang="EN-GB" style='font-family: "Calibri Light","sans-serif";'>Â </span>**
 
 ### <a name="_Toc485150937"><span lang="EN-GB">Adding Things using Samsung TV Binding:</span></a>
 
@@ -5433,13 +5433,13 @@ Z:\etc\openhab2
 
 <span lang="EN-GB">Optional: Select in your PAPER UI inbox the add blue add icon (+)</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB">Search for the thing manually using the Samsung TV Binding</span>
 
@@ -5485,12 +5485,12 @@ Z:\etc\openhab2
 
 </table>
 
-### <span lang="EN-GB"> </span>
+### <span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB" style='font-family: "Calibri Light","sans-serif";'> </span>
+<span lang="EN-GB" style='font-family: "Calibri Light","sans-serif";'>Â </span>
 
 ### <a name="_Toc485150938"><span lang="EN-GB">Adding Things using WiFi LED Binding:</span></a>
 
@@ -5542,13 +5542,13 @@ Z:\etc\openhab2
 
 <span lang="EN-GB">Optional: Select in your PAPER UI inbox the add blue add icon (+)</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB">Search for the thing manually using the Samsung TV Binding</span>
 
@@ -5560,7 +5560,7 @@ Z:\etc\openhab2
 
 <(+)>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image129.jpg)
 
@@ -5599,7 +5599,7 @@ Z:\etc\openhab2
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-**<span lang="EN-GB" style='font-size: 13pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'> </span>**
+**<span lang="EN-GB" style='font-size: 13pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'>Â </span>**
 
 ## <a name="_Toc485150939"><span lang="EN-GB">Adding online things connected via network (IP)</span></a>
 
@@ -5673,7 +5673,7 @@ Z:\etc\openhab2
 
 [<span class="Heading9Char"><span lang="EN-GB" style="font-size: 10pt; color: windowtext; text-decoration: none;">http://www.woeidlookup.com/</span></span>](http://www.woeidlookup.com/)
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB">In this case we choose Berlin</span>
 
@@ -5683,7 +5683,7 @@ Z:\etc\openhab2
 
 [<span class="Heading9Char"><span lang="EN-GB" style="font-size: 10pt; color: windowtext; text-decoration: none;">https://en.wikipedia.org/wiki/WOEID</span></span>](https://en.wikipedia.org/wiki/WOEID)
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -5743,16 +5743,16 @@ Z:\etc\openhab2
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-**<span lang="EN-GB" style='font-size: 13pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'> </span>**
+**<span lang="EN-GB" style='font-size: 13pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'>Â </span>**
 
 ## <a name="_Toc485150941"><span lang="EN-GB">Adding things connected via Z-Wave controller</span></a>
 
@@ -5882,12 +5882,12 @@ Z:\etc\openhab2
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150943"><span lang="EN-GB">Adding Z-Wave things using HABmin UI</span></a>
 
@@ -6021,13 +6021,13 @@ Z:\etc\openhab2
 
 <span lang="EN-GB">Just select the <Add> button to include this device as a thing for openHAB2</span>
 
-<span lang="EN-GB">NOTE: some devices may come up as **“unknown device”**. You can still add the device and “cure” the information later.</span>
+<span lang="EN-GB">NOTE: some devices may come up as **â€œunknown deviceâ€**. You can still add the device and â€œcureâ€ the information later.</span>
 
 <span lang="EN-GB">The normal reason for this is that the device was not able to finish the communication with HABmin during the inclusion process</span>
 
 <span lang="EN-GB">This might be very likely for battery powered devices since the will go to sleep mode after a certain amount of time. To cure this you just have to manually wake up the device (see device manual) multiple times (up to 10 times) before the communication is completed and the device is recognized as a proper thing in HABmin</span>
 
-<span lang="EN-GB">ATTENTION: Using the **Aeotec by Aeon Labs Z-Stick Gen5** almost every battery powered item will come up as **“unknown device”** since in the timespan you include the battery device to the stick and you do the HABmin inclusion after you plugged the stick back in will be to long an most of the devices will go back to sleep. You might prevent this by manually waking up the device again just seconds before you start the inclusion on HABmin.</span>
+<span lang="EN-GB">ATTENTION: Using the **Aeotec by Aeon Labs Z-Stick Gen5** almost every battery powered item will come up as **â€œunknown deviceâ€** since in the timespan you include the battery device to the stick and you do the HABmin inclusion after you plugged the stick back in will be to long an most of the devices will go back to sleep. You might prevent this by manually waking up the device again just seconds before you start the inclusion on HABmin.</span>
 
 <span lang="EN-GB">The other reason is that the device is not supported by the openHAB2 Z-Wave binding. You can check the supported devices at:</span>
 
@@ -6055,7 +6055,7 @@ Z:\etc\openhab2
 
 <td width="328" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 246.3pt;">
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -6065,20 +6065,20 @@ Z:\etc\openhab2
 
 </table>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ### <a name="_Toc485150944"><span lang="EN-GB">For details documentation on the Z-Wave Binding usage in HABmin consult:</span></a>
 
 [<span class="Heading9Char"><span lang="EN-GB" style="font-size: 10pt; line-height: 115%; color: windowtext; text-decoration: none;">http://www.cd-jackson.com/index.php/openhab/habmin/10-habmin-zwave-binding-initialisation</span></span>](http://www.cd-jackson.com/index.php/openhab/habmin/10-habmin-zwave-binding-initialisation)
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 ## <a name="_Toc485150945"><span lang="EN-GB">Creating items form things</span></a>
 
@@ -6086,11 +6086,11 @@ Z:\etc\openhab2
 
 <span lang="EN-GB">Before we start please read first the concept of</span> <span lang="EN-US">Things, Channels, Items and Links which is directly tanken from the openHAB2 User Manual page</span> [<span class="Heading9Char"><span lang="EN-US" style="font-size: 10pt; line-height: 115%; color: windowtext; text-decoration: none;">http://docs.openhab.org/concepts/index.html#things-channels-items-and-links</span></span>](http://docs.openhab.org/concepts/index.html#things-channels-items-and-links)<span lang="EN-US"></span>
 
-<span lang="EN-US">Things are the entities that can be physically added to a system and which can potentially provide many functionalities at once. It is important to note that things do not have to be devices, but they can also represent a web service or any other manageable source of information and functionality. Things provide their functionality through a set of Channels. Channels are “passive” and can be regarded as a declaration of a Thing, what it can offer. It is up to the individual setup, which of the Channels are actively used through Items (see below).</span>
+<span lang="EN-US">Things are the entities that can be physically added to a system and which can potentially provide many functionalities at once. It is important to note that things do not have to be devices, but they can also represent a web service or any other manageable source of information and functionality. Things provide their functionality through a set of Channels. Channels are â€œpassiveâ€ and can be regarded as a declaration of a Thing, what it can offer. It is up to the individual setup, which of the Channels are actively used through Items (see below).</span>
 
 <span lang="EN-US">Items represent (fine-grained) functionality that is used by applications - as user interfaces or automation logic. Items have a state and they can receive commands.</span>
 
-<span lang="EN-US">The glue between Things and Items are Links. Links are associations between exactly one Thing Channel and one Item. If a Channel is linked to an Item, it is “enabled”, which means that the functionality that the Item represents is handled through the given Channel. Channels can be linked to multiple Items and Items can be linked to multiple Channels.</span>
+<span lang="EN-US">The glue between Things and Items are Links. Links are associations between exactly one Thing Channel and one Item. If a Channel is linked to an Item, it is â€œenabledâ€, which means that the functionality that the Item represents is handled through the given Channel. Channels can be linked to multiple Items and Items can be linked to multiple Channels.</span>
 
 <span lang="EN-US">To illustrate these concepts, take a two-channel actuator that controls two lights:</span>
 
@@ -6101,7 +6101,7 @@ Z:\etc\openhab2
 <span lang="EN-US" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-US">The basic process of in PAPER UI is explained on:</span> [<span class="Heading9Char"><span lang="EN-US" style="font-size: 10pt; line-height: 115%; color: windowtext; text-decoration: none;">http://docs.openhab.org/tutorials/beginner/configuration.html</span></span>](http://docs.openhab.org/tutorials/beginner/configuration.html)<span lang="EN-US"></span>
 
@@ -6123,7 +6123,7 @@ Z:\etc\openhab2
 
 <span lang="EN-US">and select the KeyFob_Gen5 thing</span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 </td>
 
@@ -6191,7 +6191,7 @@ Z:\etc\openhab2
 
 <span lang="EN-US">The next window coming up will allow you to select already existing items or:</span>
 
-<span lang="EN-US">In our case <+Create new item…></span>
+<span lang="EN-US">In our case <+Create new itemâ€¦></span>
 
 </td>
 
@@ -6251,7 +6251,7 @@ Z:\etc\openhab2
 
 <span lang="EN-GB">--Items</span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 </td>
 
@@ -6267,12 +6267,12 @@ Z:\etc\openhab2
 
 </table>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-US" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 ### <a name="_Toc485150948"><span lang="EN-US">Now go on creating the items according to the list below</span></a>
 
@@ -6680,14 +6680,14 @@ HF-LPB100-ZJ200
 
 </table>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-US" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 # <a name="_Toc485150949"><span lang="EN-US">Chapter 11: Creating a dashboard for your home automation project</span></a>
 
@@ -6761,11 +6761,11 @@ HF-LPB100-ZJ200
 
 </table>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 ## <a name="_Toc485150950"><span lang="EN-US">BASIC UI dashboard</span></a>
 
-<span lang="EN-US">Since this is a beginner’s tutorial where I am trying to get things done using as less textual coding as possible, I will not go into the details of creating a dashboard for the BASIC UI since it requires the file based approach.</span>
+<span lang="EN-US">Since this is a beginnerâ€™s tutorial where I am trying to get things done using as less textual coding as possible, I will not go into the details of creating a dashboard for the BASIC UI since it requires the file based approach.</span>
 
 <span lang="EN-US">Tough you might find that some specific requirements to a dashboard can only be solved creating this textual sitemap configuration and using BASIC UI for displaying your dashboard.</span>
 
@@ -6776,7 +6776,7 @@ HF-LPB100-ZJ200
 <span lang="EN-US" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-**<span lang="EN-US" style='font-size: 13pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'> </span>**
+**<span lang="EN-US" style='font-size: 13pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'>Â </span>**
 
 ## <a name="_Toc485150951"><span lang="EN-US">PAPER UI dashboard</span></a>
 
@@ -6784,7 +6784,7 @@ HF-LPB100-ZJ200
 
 ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image160.jpg)
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-US">You can also easily create different tabs of things by adding <Location> information to the thing in the thing tab:</span>
 
@@ -6795,9 +6795,9 @@ HF-LPB100-ZJ200
 <span lang="EN-US" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-US">Now you will have Control panel giving you various tabs with items grouped by their things</span>
 
@@ -6809,12 +6809,12 @@ HF-LPB100-ZJ200
 
 ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image163.jpg)
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-US" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-**<span lang="EN-US" style='font-size: 13pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'> </span>**
+**<span lang="EN-US" style='font-size: 13pt; line-height: 115%; font-family: "Calibri Light","sans-serif";'>Â </span>**
 
 ## <a name="_Toc485150952"><span lang="EN-US">HABPANEL UI dashboard</span></a>
 
@@ -6852,7 +6852,7 @@ HF-LPB100-ZJ200
 
 <span lang="EN-US"><Add new dashboard></span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 </td>
 
@@ -6886,32 +6886,32 @@ HF-LPB100-ZJ200
 
 </table>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-US">You can find the standard documentation on:</span>
 
 [<span class="Heading9Char"><span lang="EN-US" style="font-size: 10pt; line-height: 115%; color: windowtext; text-decoration: none;">http://docs.openhab.org/addons/uis/HABPANEL/readme.html</span></span>](http://docs.openhab.org/addons/uis/habpanel/readme.html)
 
-## <span lang="EN-US"> </span>
+## <span lang="EN-US">Â </span>
 
 ## <a name="_Toc485150953"><span lang="EN-US">HABMIN dashboard</span></a>
 
-<span lang="EN-US">And once again, since this is a beginner’s tutorial I can’t go into all the possibilities of how to create a dashboard in openHAB2\. So I will not go into creating a dashboard in HABMIN. But be aware the HABMIN is providing a powerful graphical way of creating dashboards you might want to have a look at.</span>
+<span lang="EN-US">And once again, since this is a beginnerâ€™s tutorial I canâ€™t go into all the possibilities of how to create a dashboard in openHAB2\. So I will not go into creating a dashboard in HABMIN. But be aware the HABMIN is providing a powerful graphical way of creating dashboards you might want to have a look at.</span>
 
 <span lang="EN-US">You can find the standard documentation on:</span>
 
 [<span class="Heading9Char"><span lang="EN-US" style="font-size: 10pt; line-height: 115%; color: windowtext; text-decoration: none;">http://docs.openhab.org/addons/uis/habmin/readme.html</span></span>](http://docs.openhab.org/addons/uis/habmin/readme.html)
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-US" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 # <a name="_Toc485150954"><span lang="EN-US">Chapter 12: Creating rules</span></a>
 
-<span lang="EN-US">Since rules can’t be configured using the PAPER UI (stable version) you now have to go to the text files for now. For this part we will now use the</span> <span lang="EN-GB">Eclipse Smart Home Designer since it creates at least some syntax highlighting.</span>
+<span lang="EN-US">Since rules canâ€™t be configured using the PAPER UI (stable version) you now have to go to the text files for now. For this part we will now use the</span> <span lang="EN-GB">Eclipse Smart Home Designer since it creates at least some syntax highlighting.</span>
 
 <span lang="EN-US">REMARK: You might find already some functionality about configuration of rules in the PAPER UI snapshot versions so there will be some changes in the way of doing rules more easily in the future. Also HABmin is providing some kind of graphical rule engine.</span>
 
@@ -7041,9 +7041,9 @@ myfirstrule.rules
 
 <span lang="EN-US">Now double click on the file to open it and delete the old content to have a plain rule rile</span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-US">And save the rule file again</span>
 
@@ -7067,12 +7067,12 @@ myfirstrule.rules
 
 </table>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-US" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 ## <a name="_Toc485150956"><span lang="EN-US">Creating a basic rules</span></a>
 
@@ -7090,18 +7090,18 @@ myfirstrule.rules
 
 [<span class="Heading9Char"><span lang="EN-US" style="font-size: 10pt; line-height: 115%; color: windowtext; text-decoration: none;">https://github.com/openhab/openhab1-addons/wiki/Samples-Rules</span></span>](https://github.com/openhab/openhab1-addons/wiki/Samples-Rules)
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-US">And maybe some coding experts in the community will find the time to create a kind of an openHAB2 compendium to make it easier the non-experts to do rules.</span>
 
-<span lang="EN-US">REMAKR: Yes, I know there are plenty of online documentation sites available, but the problem for me was the “plenty” part of it since I always had to go through plenty different websites to finally get the syntax right and make the rule do, what I wanted it to do.</span>
+<span lang="EN-US">REMAKR: Yes, I know there are plenty of online documentation sites available, but the problem for me was the â€œplentyâ€ part of it since I always had to go through plenty different websites to finally get the syntax right and make the rule do, what I wanted it to do.</span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-US" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-**<span lang="EN-US" style='font-family: "Calibri Light","sans-serif";'> </span>**
+**<span lang="EN-US" style='font-family: "Calibri Light","sans-serif";'>Â </span>**
 
 ### <a name="_Toc485150957"><span lang="EN-US">Basic rule example:</span></a>
 
@@ -7131,7 +7131,7 @@ myfirstrule.rules
 
 <span lang="EN-US">Just copy the code to the right directly into your myfirstrule.rules file</span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 </td>
 
@@ -7139,7 +7139,7 @@ myfirstrule.rules
 
 **<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>rule</span>** <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'></span> <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(42, 0, 255);'>"KeyFob"</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'> </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'>Â </span>
 
 **<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>when</span>**
 
@@ -7157,9 +7157,9 @@ myfirstrule.rules
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>_sendCommand_ (<u>SchuKo01</u>,</span> _<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(0, 0, 192);'>ON</span>_<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>      }</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â  }</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'> </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'>Â </span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Scene number 2 - Button 1 (up left) pressed long</span>
 
@@ -7171,37 +7171,37 @@ myfirstrule.rules
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>_sendCommand_ (<u>SchuKo01</u>,</span> _<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(0, 0, 192);'>OFF</span>_<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>      }</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â  }</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'> </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'>Â </span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Scene number 3 - Button 2 (up left) pressed short</span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'></span> **<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>if</span>** <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>(<u>ZWaveNode9ZW0884ButtonKeyfobGen5_SceneNumber</u>.state ==</span> <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(125, 125, 125);'>3</span><span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>) {</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Switching ON the items YamahaReceiverRXV581_Power and DUMMYITEM_SamsungTV_Power   </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Switching ON the items YamahaReceiverRXV581_Power and DUMMYITEM_SamsungTV_PowerÂ Â Â </span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>_sendCommand_ (<u>YamahaReceiverRXV581_Power</u>,</span> _<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(0, 0, 192);'>ON</span>_<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)</span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>_sendCommand_ (<u>DUMMYITEM_SamsungTV_Power</u>,</span> _<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(0, 0, 192);'>ON</span>_<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>      }</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â  }</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'> </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'>Â </span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Scene number 4 - Button 2 (up left) pressed long</span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'></span> **<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>if</span>** <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>(<u>ZWaveNode9ZW0884ButtonKeyfobGen5_SceneNumber</u>.state ==</span> <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(125, 125, 125);'>4</span><span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>) {</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Switching OFF the items YamahaReceiverRXV581_Power and DUMMYITEM_SamsungTV_Power   </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Switching OFF the items YamahaReceiverRXV581_Power and DUMMYITEM_SamsungTV_PowerÂ Â Â </span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>_sendCommand_ (<u>YamahaReceiverRXV581_Power</u>,</span> _<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(0, 0, 192);'>OFF</span>_<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>_sendCommand_ (<u>DUMMYITEM_SamsungTV_Power</u>,</span> _<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(0, 0, 192);'>OFF</span>_<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)       </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>_sendCommand_ (<u>DUMMYITEM_SamsungTV_Power</u>,</span> _<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(0, 0, 192);'>OFF</span>_<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)Â Â Â Â Â Â Â </span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>      }</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â  }</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'> </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'>Â </span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Scene number 5 - Button 3 (up left) pressed short</span>
 
@@ -7209,11 +7209,11 @@ myfirstrule.rules
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Switching ON the item HFLPB100ZJ200_Power</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>_sendCommand_ (<u>HFLPB100ZJ200_Power</u>,</span> _<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(0, 0, 192);'>ON</span>_<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)   </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>_sendCommand_ (<u>HFLPB100ZJ200_Power</u>,</span> _<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(0, 0, 192);'>ON</span>_<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)Â Â Â </span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>      }</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â  }</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'> </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'>Â </span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Scene number 6 - Button 3 (up left) pressed long</span>
 
@@ -7221,13 +7221,13 @@ myfirstrule.rules
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Switching OFF the item HFLPB100ZJ200_Power</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>_sendCommand_ (<u>HFLPB100ZJ200_Power</u>,</span> _<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(0, 0, 192);'>OFF</span>_<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)  </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>_sendCommand_ (<u>HFLPB100ZJ200_Power</u>,</span> _<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(0, 0, 192);'>OFF</span>_<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)Â Â </span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>      }</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â  }</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'> </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'>Â </span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'> </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'>Â </span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Scene number 7 - Button 4 (up left) pressed short</span>
 
@@ -7235,13 +7235,13 @@ myfirstrule.rules
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//NOTE: since setting the color will influence the dimming of the WHITE</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//          so if you want to set both values at the same time, always</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Â Â Â Â Â Â Â Â Â  so if you want to set both values at the same time, always</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//          set color first and than</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Â Â Â Â Â Â Â Â Â  set color first and than</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//      set the dimming of WHITE</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Â Â Â Â Â  set the dimming of WHITE</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'> </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'>Â </span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Changing the color of the item HFLPB100ZJ200_Color to RED</span>
 
@@ -7249,15 +7249,15 @@ myfirstrule.rules
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//To convert RGB code to HSL code just go to e.g. http://www.rapidtables.com/convert/color/rgb-to-hsl.htm</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>                  _sendCommand_ (<u>HFLPB100ZJ200_Color</u>,(</span>**<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>new</span>** <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>HSBType(</span><span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(42, 0, 255);'>"0,100,50"</span><span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)))  </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  _sendCommand_ (<u>HFLPB100ZJ200_Color</u>,(</span>**<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>new</span>** <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>HSBType(</span><span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(42, 0, 255);'>"0,100,50"</span><span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)))Â Â </span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Dimming the item HFLPB100ZJ200_White to 50%</span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>_sendCommand_ (<u>HFLPB100ZJ200_White</u>,</span> <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(125, 125, 125);'>50</span><span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>      }</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â  }</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>     </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â </span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Scene number 8 - Button 4 (up left) pressed long</span>
 
@@ -7265,13 +7265,13 @@ myfirstrule.rules
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//NOTE: since setting the color will influence the dimming of the WHITE</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//          so if you want to set both values at the same time, always</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Â Â Â Â Â Â Â Â Â  so if you want to set both values at the same time, always</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//          set color first and than</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Â Â Â Â Â Â Â Â Â  set color first and than</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//      set the dimming of WHITE</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Â Â Â Â Â  set the dimming of WHITE</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'> </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'>Â </span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Changing the color of the item HFLPB100ZJ200_Color to GREEN</span>
 
@@ -7279,15 +7279,15 @@ myfirstrule.rules
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//To convert RGB code to HSL code just go to e.g. http://www.rapidtables.com/convert/color/rgb-to-hsl.htm</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>                  _sendCommand_ (<u>HFLPB100ZJ200_Color</u>,(</span>**<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>new</span>** <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>HSBType(</span><span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(42, 0, 255);'>"120,100,50"</span><span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)))</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  _sendCommand_ (<u>HFLPB100ZJ200_Color</u>,(</span>**<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>new</span>** <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>HSBType(</span><span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(42, 0, 255);'>"120,100,50"</span><span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)))</span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'></span> <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>//Dimming the item HFLPB100ZJ200_White to 100%</span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'></span> _<span style='font-size: 10pt; font-family: "Courier New"; color: black;'>sendCommand</span>_ <span style='font-size: 10pt; font-family: "Courier New"; color: black;'>(<u>HFLPB100ZJ200_White</u>,</span> <span style='font-size: 10pt; font-family: "Courier New"; color: rgb(125, 125, 125);'>100</span><span style='font-size: 10pt; font-family: "Courier New"; color: black;'>)</span>
 
-<span style='font-size: 10pt; font-family: "Courier New"; color: black;'>      }</span>
+<span style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â  }</span>
 
-**<span style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>end</span>**<span style='font-size: 10pt; font-family: "Courier New"; color: black;'>  </span>
+**<span style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>end</span>**<span style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â </span>
 
 </td>
 
@@ -7342,7 +7342,7 @@ myfirstrule.rules
 
 var Number loop_counter = 0
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
@@ -7436,9 +7436,9 @@ http://xxx.xxx.xxx.xxx:8080/HABPANEL/index.html#/
 
 then <Add new dashboard>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB">enter the name</span> Debug <span lang="EN-GB">and</span> <OK>
 
@@ -7518,13 +7518,13 @@ Debug
 
 <span lang="EN-GB">Now you have to</span> <+ Add Widget>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB">You have to use the</span> <Dummy> <span lang="EN-GB">widget to display numbers</span>
 
@@ -7554,7 +7554,7 @@ Debug
 
 <td width="289" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 216.65pt;">
 
-![](openHAB2_Raspberry_beginner-s_walkthrough_files/image183.jpg) 
+![](openHAB2_Raspberry_beginner-s_walkthrough_files/image183.jpg)Â 
 
 </td>
 
@@ -7614,13 +7614,13 @@ Counter Item Debug
 
 <span lang="EN-GB">Now</span> <Save> <span lang="EN-GB">the dashboard and</span> <Run> <span lang="EN-GB">it.</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
 <td width="289" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 216.65pt;">
 
-![](openHAB2_Raspberry_beginner-s_walkthrough_files/image187.jpg) ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image188.jpg)
+![](openHAB2_Raspberry_beginner-s_walkthrough_files/image187.jpg)Â ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image188.jpg)
 
 <Save>
 
@@ -7751,9 +7751,9 @@ http://xxx.xxx.xxx.xxx:8080/HABPANEL/index.html#/
 
 then <Add new dashboard>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB">enter the name</span> Debug <span lang="EN-GB">and</span> <OK>
 
@@ -7833,13 +7833,13 @@ Debug
 
 <span lang="EN-GB">Now you have to</span> <+ Add Widget>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 <span lang="EN-GB">You have to use the</span> <Button> <span lang="EN-GB">widget to display numbers</span>
 
@@ -7869,7 +7869,7 @@ Debug
 
 <td width="281" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 211pt;">
 
-![](openHAB2_Raspberry_beginner-s_walkthrough_files/image183.jpg) 
+![](openHAB2_Raspberry_beginner-s_walkthrough_files/image183.jpg)Â 
 
 </td>
 
@@ -7929,13 +7929,13 @@ Dummy Switch ON/OFF
 
 <span lang="EN-GB">Now</span> <Save> <span lang="EN-GB">the dashboard and</span> <Run> <span lang="EN-GB">it.</span>
 
-<span lang="EN-GB"> </span>
+<span lang="EN-GB">Â </span>
 
 </td>
 
 <td width="281" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 211pt;">
 
-![](openHAB2_Raspberry_beginner-s_walkthrough_files/image196.jpg) ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image197.jpg)
+![](openHAB2_Raspberry_beginner-s_walkthrough_files/image196.jpg)Â ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image197.jpg)
 
 <Save>
 
@@ -7959,7 +7959,7 @@ Dummy Switch ON/OFF
 
 <td width="281" valign="top" style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 1pt 1pt medium; padding: 0cm 5.4pt; width: 211pt;">
 
-![](openHAB2_Raspberry_beginner-s_walkthrough_files/image198.jpg) ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image199.jpg)
+![](openHAB2_Raspberry_beginner-s_walkthrough_files/image198.jpg)Â ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image199.jpg)
 
 </td>
 
@@ -7969,12 +7969,12 @@ Dummy Switch ON/OFF
 
 </table>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 <span lang="EN-US" style='font-size: 11pt; line-height: 115%; font-family: "Calibri","sans-serif";'>  
 </span>
 
-<span lang="EN-US"> </span>
+<span lang="EN-US">Â </span>
 
 ## <a name="_Toc485150961"><span lang="EN-US">Further Rule examples based on this home automation project:</span></a>
 
@@ -7986,13 +7986,13 @@ Dummy Switch ON/OFF
 
 <span lang="EN-US">To prevent von switching on/off if the illumination is around 10 lumen and e.g. just a cloud is casting a temporarily shadow, there is a counter included which is measuring multiple times the illumination and only allows to triggering the switch if there reading is consistently (10 times) above or below the trigger value.</span>
 
-<span lang="EN-US">NOTE: Make sure you have create the item Counter_Item since it’s used in the rule (see: part “Creating an item the see the value of a variable of a rule online” in this chapter).</span>
+<span lang="EN-US">NOTE: Make sure you have create the item Counter_Item since itâ€™s used in the rule (see: part â€œCreating an item the see the value of a variable of a rule onlineâ€ in this chapter).</span>
 
 <span lang="EN-US">REMARK: This was done as some kind of coding and configuring HABPANEL exercise. You might get the same result in just checking the reading in a less frequent period, forget about the counter and just trigger the switch when the illumination reading is above or below the trigger value.</span>
 
-<span lang="EN-US">You can also use this Counter_Item to display some tendency whether your light is about to switch ON/OFF depending on the value of the Counter_Item on your dashboard. So if you play a little with the “knob” widget in HABPANEL it might look like this:</span>
+<span lang="EN-US">You can also use this Counter_Item to display some tendency whether your light is about to switch ON/OFF depending on the value of the Counter_Item on your dashboard. So if you play a little with the â€œknobâ€ widget in HABPANEL it might look like this:</span>
 
-![](openHAB2_Raspberry_beginner-s_walkthrough_files/image200.jpg) ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image201.jpg) ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image202.jpg) ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image203.jpg)
+![](openHAB2_Raspberry_beginner-s_walkthrough_files/image200.jpg)Â ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image201.jpg)Â ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image202.jpg)Â ![](openHAB2_Raspberry_beginner-s_walkthrough_files/image203.jpg)
 
 <span lang="EN-US">Then you add some other readings of your multissor, the wattage reading and trigger of your switch, a clock widget and you have a complete dashboard of your real weather and let it trigger your outside ligth.</span>
 
@@ -8009,13 +8009,13 @@ Dummy Switch ON/OFF
 
 <td width="652" valign="top" style="border: 1pt solid windowtext; padding: 0cm 5.4pt; width: 488.9pt;">
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'> </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'>Â </span>
 
 **<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>var</span>** <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Number loop_counter =</span> <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(125, 125, 125);'>0</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'> </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'>Â </span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'> </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'>Â </span>
 
 **<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>rule</span>** <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'></span> <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(42, 0, 255);'>"check_illumination"</span>
 
@@ -8023,7 +8023,7 @@ Dummy Switch ON/OFF
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(63, 127, 95);'>// 10 times in a row darker/lighter before triggering switch</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'> </span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New";'>Â </span>
 
 **<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>when</span>**
 
@@ -8049,7 +8049,7 @@ Dummy Switch ON/OFF
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>_postUpdate_(<u>Counter_Item</u>,</span> _<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(0, 0, 192);'>loop_counter</span>_<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>            }</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â Â Â Â Â Â Â  }</span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'></span> **<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>else</span>** <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>{</span>
 
@@ -8057,9 +8057,9 @@ Dummy Switch ON/OFF
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>_sendCommand_ (<u>DoubbleSwitch01_Relais1</u>,</span> _<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(0, 0, 192);'>ON</span>_<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>            }</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â Â Â Â Â Â Â  }</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>      }</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â  }</span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'></span> **<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>else</span>**
 
@@ -8069,7 +8069,7 @@ Dummy Switch ON/OFF
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>_postUpdate_(<u>Counter_Item</u>,</span> _<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(0, 0, 192);'>loop_counter</span>_<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>            }</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â Â Â Â Â Â Â  }</span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'></span> **<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>else</span>** <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>{</span>
 
@@ -8077,15 +8077,15 @@ Dummy Switch ON/OFF
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>_sendCommand_ (<u>DoubbleSwitch01_Relais1</u>,</span> _<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(0, 0, 192);'>OFF</span>_<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>)</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>            }</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â Â Â Â Â Â Â  }</span>
 
-<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>            }</span>
+<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â Â Â Â Â Â Â  }</span>
 
 **<span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>else</span>** <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'>{</span>
 
 <span lang="EN-US" style='font-size: 10pt; font-family: "Courier New"; color: black;'></span> _<span style='font-size: 10pt; font-family: "Courier New"; color: rgb(0, 0, 192);'>loop_counter</span>_ <span style='font-size: 10pt; font-family: "Courier New"; color: black;'>=</span> <span style='font-size: 10pt; font-family: "Courier New"; color: rgb(125, 125, 125);'>0</span>
 
-<span style='font-size: 10pt; font-family: "Courier New"; color: black;'>            }</span>
+<span style='font-size: 10pt; font-family: "Courier New"; color: black;'>Â Â Â Â Â Â Â Â Â Â Â  }</span>
 
 **<span style='font-size: 10pt; font-family: "Courier New"; color: rgb(127, 0, 85);'>end</span>**
 
@@ -8099,6 +8099,6 @@ Dummy Switch ON/OFF
 
 <span lang="EN-US">And save the file</span>
 
-<span lang="EN-US"> </span>
-
+<span lang="EN-US">Â </span>
+ 
 </div>
