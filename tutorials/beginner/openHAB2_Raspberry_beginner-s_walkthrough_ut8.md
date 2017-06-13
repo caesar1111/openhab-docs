@@ -1408,14 +1408,13 @@ ul
 	{margin-bottom:0cm;}
 -->
 </style><title>openHAB2 Raspberry beginner-s walkthrough</title></head>
-
 <body lang="DE" link="#0563c1" vlink="#954f72">
 
 <div class="WordSection1">
 
 <div style="border-style: none none solid; border-color: -moz-use-text-color -moz-use-text-color windowtext; border-width: medium medium 1pt; padding: 0cm 0cm 1pt;">
 
-<p class="MsoTitle"><span style="position: relative; z-index: 251689984;"><span style="position: absolute; left: 445px; top: -141px; width: 324px; height: 300px;"><img src="openHAB2_Raspberry_beginner-s_walkthrough_files/image001.png" alt="2nd Draft" height="300" width="324"></span></span><span lang="EN-GB">openHAB2 Raspberry beginner’s walkthrough
+<p class="MsoTitle"><span style="position: relative; z-index: 251689984;"><span style="position: absolute; left: 445px; top: -141px; width: 324px; height: 300px;"></span></span><span lang="EN-GB">openHAB2 Raspberry beginner’s walkthrough
 – (Using Raspberry Pi 3 with openHAB2 and Z-Wave, WiFi LED, Samsung TV and
 YahooWeather bindings for a home automation project)</span></p>
 
